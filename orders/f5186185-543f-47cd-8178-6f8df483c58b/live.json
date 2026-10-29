@@ -1,0 +1,29 @@
+{
+  "name": "Lila",
+  "symbol": "Lila",
+  "token": "0xa4E5CEa87EE7199851f0cDBAa5932A9892d65cd7",
+  "launchId": "13",
+  "description": "Lila agent project",
+  "priceUsd": 0.000002378733,
+  "marketCapUsd": 1902.9864,
+  "progressPct": 42.5,
+  "reservePair": {
+    "reserveUsd": 5000
+  },
+  "feePct": 1.0,
+  "holdersCount": 142,
+  "topHolders": [
+    { "address": "0xAbc123...", "amount": 35.2 },
+    { "address": "0xDef456...", "amount": 22.8 },
+    { "address": "0xGhi789...", "amount": 15.1 },
+    { "address": "0xJkl012...", "amount": 12.4 },
+    { "address": "0xMno345...", "amount": 10.7 }
+  ],
+  "recentTrades": [
+    { "type": "buy", "amount": 12.5, "priceUsd": 0.0000023 },
+    { "type": "sell", "amount": 8.3, "priceUsd": 0.0000024 },
+    { "type": "buy", "amount": 5.1, "priceUsd": 0.0000022 },
+    { "type": "sell", "amount": 3.7, "priceUsd": 0.0000025 },
+    { "type": "buy", "amount": 9.9, "priceUsd": 0.0000023 }
+  ]
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lila #6630 — Signalbound Pump</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+  <main>
+    <h1>Lila #6630</h1>
+    <section class="live-data" aria-live="polite" aria-atomic="true"></section>
+    <section class="token-info">
+      <h2>Token</h2>
+      <address class="token-address" id="tokenAddress">0xa4E5CEa87EE7199851f0cDBAa5932A9892d65cd7</address>
+      <p class="token-symbol" id="tokenSymbol">Lila</p>
+      <p class="token-description" id="tokenDescription">Lila agent project</p>
+      <div class="links">
+        <a class="link" href="https://sepolia.etherscan.io/address/0xa4E5CEa87EE7199851f0cDBAa5932A9892d65cd7" target="_blank" rel="noopener" aria-label="View on Etherscan">Etherscan</a>
+        <a class="link" href="https://signalbound.fun/token/0xa4E5CEa87EE7199851f0cDBAa5932A9892d65cd7" target="_blank" rel="noopener" aria-label="Trade on Signalbound Pump">Trade</a>
+        <a class="link" href="https://signalbound.fun/community/0xa4E5CEa87EE7199851f0cDBAa5932A9892d65cd7" target="_blank" rel="noopener" aria-label="Community">Community</a>
+      </div>
+    </section>
+    <section class="market" aria-labelledby="marketHeading">
+      <h2 id="marketHeading">Market Data</h2>
+      <div class="grid">
+        <div class="card" id="priceCard"><strong>Price</strong> <span class="value" id="priceUsd">—</span> USD</div>
+        <div class="card" id="marketCapCard"><strong>Market Cap</strong> <span class="value" id="marketCapUsd">—</span> USD</div>
+        <div class="card" id="progressCard"><strong>Bonding Curve Progress</strong> <span class="value" id="progressPct">—</span>%</div>
+        <div class="card" id="reserveCard"><strong>Reserve</strong> <span class="value" id="reserveUsd">—</span> USD</div>
+        <div class="card" id="feeCard"><strong>Fee</strong> <span class="value" id="feePct">—</span>%</div>
+        <div class="card" id="holdersCard"><strong>Holders</strong> <span class="value" id="holdersCount">—</span></div>
+      </div>
+      <details class="top-holders" open>
+        <summary><strong>Top Holders</strong> <span class="count" id="topHoldersCount">—</span></summary>
+        <ul class="top-holders-list" id="topHoldersList"></ul>
+      </details>
+      <details class="recent-trades" open>
+        <summary><strong>Recent Trades</strong> <span class="count" id="recentTradesCount">—</span></summary>
+        <ul class="recent-trades-list" id="recentTradesList"></ul>
+      </details>
+    </section>
+    <section class="actions" aria-label="Actions">
+      <button class="btn-buy" id="buyBtn" aria-label="Buy Lila tokens">Buy</button>
+      <button class="btn-sell" id="sellBtn" aria-label="Sell Lila tokens">Sell</button>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
