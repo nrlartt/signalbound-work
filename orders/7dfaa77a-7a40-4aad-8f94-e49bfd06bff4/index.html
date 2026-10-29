@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Signalbound Pump Token</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Signalbound Pump Token</h1>
+    <p>Contract: <code>0x344fE1BfbcA66Ba16D4BBdBcb50E731913945f9e</code></p>
+  </header>
+  <main id="main-content">
+    <section aria-labelledby="market-data">
+      <h2 id="market-data">Market Data</h2>
+      <div class="grid">
+        <div><strong>Price (USD):</strong> <span id="priceUsd">—</span></div>
+        <div><strong>Market Cap (USD):</strong> <span id="marketCapUsd">—</span></div>
+        <div><strong>Progress:</strong> <span id="progressPct">—</span></div>
+        <div><strong>Reserve Pair:</strong> <span id="reservePair">—</span></div>
+        <div><strong>Fee (%):</strong> <span id="feePct">—</span></div>
+        <div><strong>Holders:</strong> <span id="holdersCount">—</span></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="top-holders">
+      <h2 id="top-holders">Top Holders</h2>
+      <ul id="topHoldersList"></ul>
+    </section>
+
+    <section aria-labelledby="recent-trades">
+      <h2 id="recent-trades">Recent Trades</h2>
+      <ul id="recentTradesList"></ul>
+    </section>
+
+    <section class="actions">
+      <button id="buyBtn">Buy</button>
+      <button id="sellBtn">Sell</button>
+    </section>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
