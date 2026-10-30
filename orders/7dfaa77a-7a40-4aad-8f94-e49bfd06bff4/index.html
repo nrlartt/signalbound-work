@@ -2,44 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Signalbound Pump Token</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GuardedSwapHook operations</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Signalbound Pump Token</h1>
-    <p>Contract: <code>0xf2aFB43f9E410eEa8f1360aE236B18714a86c080</code></p>
-  </header>
-  <main id="main-content">
-    <section aria-labelledby="market-data">
-      <h2 id="market-data">Market Data</h2>
-      <div class="grid">
-        <div><strong>Price (USD):</strong> <span id="priceUsd">—</span></div>
-        <div><strong>Market Cap (USD):</strong> <span id="marketCapUsd">—</span></div>
-        <div><strong>Progress:</strong> <span id="progressPct">—</span></div>
-        <div><strong>Reserve Pair:</strong> <span id="reservePair">—</span></div>
-        <div><strong>Fee (%):</strong> <span id="feePct">—</span></div>
-        <div><strong>Holders:</strong> <span id="holdersCount">—</span></div>
-      </div>
+  <header class="topbar"><span class="brand">SIGNALBOUND</span><span>AGENT #6614 DELIVERY</span></header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">ETHEREUM SEPOLIA / LIVE CONTRACT</p>
+      <h1>GuardedSwapHook</h1>
+      <p class="lede">Inspect the deployed before-swap guard and manage its emergency controls from the owner wallet.</p>
+      <div class="contract-row"><code id="contractAddress">0xf2aFB43f9E410eEa8f1360aE236B18714a86c080</code><button id="copyAddress" class="quiet" type="button">Copy address</button></div>
+      <p id="connectionStatus" class="status" role="status">Connect a browser wallet to read live state.</p>
+      <div class="actions"><button id="connectWallet" type="button">Connect wallet</button><button id="refreshState" class="secondary" type="button">Refresh state</button><a id="explorerLink" class="link-button" target="_blank" rel="noopener noreferrer">View on explorer</a></div>
     </section>
 
-    <section aria-labelledby="top-holders">
-      <h2 id="top-holders">Top Holders</h2>
-      <ul id="topHoldersList"></ul>
+    <section class="state-grid" aria-label="Live contract state">
+      <article><span>Network</span><strong id="network">Ethereum Sepolia</strong></article>
+      <article><span>Status</span><strong id="pausedState">Not read</strong></article>
+      <article><span>Permission</span><strong>beforeSwap only</strong></article>
+      <article><span>Maximum swap</span><strong id="maximumState">Not read</strong></article>
     </section>
 
-    <section aria-labelledby="recent-trades">
-      <h2 id="recent-trades">Recent Trades</h2>
-      <ul id="recentTradesList"></ul>
+    <section class="details">
+      <div><span>Owner</span><code id="ownerState">Not read</code></div>
+      <div><span>PoolManager</span><code id="managerState">Not read</code></div>
+      <div><span>Connected wallet</span><code id="accountState">Not connected</code></div>
     </section>
 
-    <section class="actions">
-      <button id="buyBtn">Buy</button>
-      <button id="sellBtn">Sell</button>
+    <section id="ownerControls" class="owner-panel" aria-labelledby="ownerTitle">
+      <div><p class="eyebrow">OWNER CONTROLS</p><h2 id="ownerTitle">Safety settings</h2><p>Each change opens the wallet once. Nothing is signed or sent until the wallet confirms it.</p></div>
+      <div class="control"><label for="maximumInput">Maximum swap amount</label><div class="input-row"><input id="maximumInput" inputmode="decimal" placeholder="1000" aria-describedby="maximumHelp"><span>ETH units</span></div><small id="maximumHelp">Stored with 18 decimals. Enter a value greater than zero.</small><button id="updateMaximum" type="button" disabled>Update maximum</button></div>
+      <div class="control"><span>Emergency pause</span><p>Pause rejects every swap before execution. Unpause restores the amount guard.</p><button id="togglePause" type="button" disabled>Pause hook</button></div>
+      <output id="transactionStatus" class="transaction-status"></output>
     </section>
+
+    <section class="limits"><h2>What this panel proves</h2><ul><li>Live owner, PoolManager, pause state and maximum are read directly through the selected wallet network.</li><li>The deployed address carries only the beforeSwap permission bit.</li><li>Pool initialization and swap integration still require a separate end-to-end protocol test.</li></ul></section>
   </main>
-
   <script src="app.js" defer></script>
 </body>
 </html>

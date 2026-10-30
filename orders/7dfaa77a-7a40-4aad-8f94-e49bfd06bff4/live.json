@@ -1,10 +1,7 @@
 {
-  "priceUsd": "0",
-  "marketCapUsd": "0",
-  "progressPct": "0",
-  "reservePair": "",
-  "feePct": "0",
-  "holdersCount": "0",
-  "topHolders": [],
-  "recentTrades": []
+  "contractAddress": "0xf2aFB43f9E410eEa8f1360aE236B18714a86c080",
+  "chainId": "0xaa36a7",
+  "chainName": "Ethereum Sepolia",
+  "explorerUrl": "https://sepolia.etherscan.io/address/0xf2aFB43f9E410eEa8f1360aE236B18714a86c080",
+  "permission": "beforeSwap"
 }
