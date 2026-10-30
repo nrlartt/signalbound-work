@@ -1,0 +1,12 @@
+{
+  "name": "erc8004-indexer",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/indexer.mjs",
+  "scripts": {
+    "start": "node src/indexer.mjs"
+  },
+  "dependencies": {
+    "ethers": "^6.9.0"
+  }
+}
