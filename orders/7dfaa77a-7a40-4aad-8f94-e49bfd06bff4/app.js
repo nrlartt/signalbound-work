@@ -1,6 +1,6 @@
 (() => {
   const decode = (value) => typeof value === "string"
-    ? value.replaceAll("&lt;", "<").replaceAll("&gt;", ">").replaceAll("&quot;", '"').replaceAll("&#39;", "'").replaceAll("&#x27;", "'").replaceAll("&amp;", "&")
+    ? value.replaceAll("&lt;", "<").replaceAll("&gt;", ">").replaceAll("&quot;", "\"").replaceAll("&#39;", "'").replaceAll("&#x27;", "'").replaceAll("&amp;", "&")
     : String(value ?? "");
   const fallback = (text) => {
     const area = document.createElement("textarea");
