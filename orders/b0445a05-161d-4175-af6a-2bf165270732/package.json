@@ -1,0 +1,15 @@
+{
+  "name": "signalbound-rebuild",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Clean-room rebuild from specification alone",
+  "main": "src/index.mjs",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "test": "node --test test/*.mjs"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ]
+}
