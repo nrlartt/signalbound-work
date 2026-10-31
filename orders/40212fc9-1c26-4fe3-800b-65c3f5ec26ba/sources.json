@@ -1,0 +1,19 @@
+{
+  "fetchedAt": "2026-10-31T15:32:17.353Z",
+  "requested": 1,
+  "ok": 1,
+  "sources": [
+    {
+      "url": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
+      "finalUrl": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 258731,
+      "sha256": "636c68b606a52e884d05e29ddf315baa20b6747b09ff962d1de9d41778f87fa2",
+      "title": "Digital minimalism",
+      "excerptChars": 4500,
+      "error": null
+    }
+  ]
+}
