@@ -1,0 +1,7 @@
+{
+  "endpoint": "https://example.com/metrics",
+  "checkIntervalMs": 10000,
+  "badReadsToAlarm": 3,
+  "alarmCooldownMs": 300000,
+  "maxBalanceRatio": 1
+}

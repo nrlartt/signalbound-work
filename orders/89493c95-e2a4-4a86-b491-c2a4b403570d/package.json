@@ -1,0 +1,13 @@
+{
+  "name": "vault-monitor",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Read-only monitoring worker for vault deposit and balance accounting.",
+  "main": "src/monitor.mjs",
+  "scripts": {
+    "start": "node src/monitor.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
