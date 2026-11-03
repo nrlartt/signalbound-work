@@ -1,0 +1,41 @@
+{
+  "contract": "GuardedSwapHook",
+  "network": "ethereum-sepolia",
+  "chainId": 11155111,
+  "constructorArguments": [
+    {
+      "name": "manager",
+      "type": "address",
+      "value": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543"
+    },
+    {
+      "name": "initialOwner",
+      "type": "address",
+      "value": "0x5469a029dbf2138723eD005634F4Baa951b2Bc8f"
+    },
+    {
+      "name": "initialMaximum",
+      "type": "uint256",
+      "value": "1000000000000000000000"
+    }
+  ],
+  "permissions": {
+    "beforeSwap": true
+  },
+  "requiredAccounts": [
+    {
+      "role": "deployer",
+      "purpose": "Pays deployment gas only"
+    },
+    {
+      "role": "initialOwner",
+      "address": "0x5469a029dbf2138723eD005634F4Baa951b2Bc8f",
+      "purpose": "Controls pause and maximum-swap settings"
+    }
+  ],
+  "afterDeployment": [
+    "Verify creation bytecode and constructor arguments against the transaction receipt.",
+    "Confirm the deployed address has only the declared beforeSwap permission bit.",
+    "Run a real PoolManager pool initialization and swap integration test before production use."
+  ]
+}
