@@ -1,0 +1,14 @@
+{
+  "name": "erc20-transfer-indexer",
+  "version": "1.0.0",
+  "description": "Read-only ERC-20 Transfer event indexer that reads its RPC endpoint from an environment variable and writes a JSON snapshot.",
+  "main": "src/indexer.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node src/indexer.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
