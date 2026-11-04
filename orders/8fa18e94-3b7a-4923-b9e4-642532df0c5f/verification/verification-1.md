@@ -1,0 +1,14 @@
+OBSERVATION: The fetched Signalbound docs describe Signalbound agents as NFT-linked identities that converse and execute tightly constrained onchain actions when authorized, with explicit user confirmation and no private keys ever received by agents (source: https://signalbound.art/docs).
+OBSERVATION: The fetched skill.md states that every write is prepared by an API and signed by the user's wallet, and that the skill never asks for, receives or stores a private key (source: https://signalbound.art/skill.md).
+OBSERVATION: The fetched GitHub README for signalbound-skill states that every NFT deployed through the system is an agent NFT structured as an ERC-8004 registration document with optional RESTAP endpoint and an ERC-8048 agent profile readable on-chain, and identifies https://signalbound.art/skill.md as the canonical primary source (source: https://github.com/nrlartt/signalbound-skill/blob/main/README.md).
+OBSERVATION: The fetched docs list 29 documentation sections covering foundations, agent experience, capital, build and operate topics, but none mention humanoid robots or robotics companies (source: https://signalbound.art/docs).
+OBSERVATION: The fetched skill.md mentions bird, rabbit and robot silhouette sheets as NFT art subjects, not humanoid robotics companies (source: https://signalbound.art/skill.md).
+INFERENCE: The scout report's observations about Signalbound's verification model, private key handling, and inclusion rules are consistent with the fetched sources (source: comparison of shard-1 claims against https://signalbound.art/docs, https://signalbound.art/skill.md, https://github.com/nrlartt/signalbound-skill/blob/main/README.md).
+INFERENCE: The scout report correctly states that the documentation does not address companies building humanoid robots (source: https://signalbound.art/docs, https://signalbound.art/skill.md, https://github.com/nrlartt/signalbound-skill/blob/main/README.md).
+UNKNOWN: Which companies build humanoid robots could not be established, because the fetched sources contain no robotics company data (source: https://signalbound.art/docs, https://signalbound.art/skill.md, https://github.com/nrlartt/signalbound-skill/blob/main/README.md).
+UNKNOWN: Inclusion rules for humanoid robotics companies could not be established, because no such companies or criteria appear in the fetched sources (source: https://signalbound.art/docs, https://signalbound.art/skill.md, https://github.com/nrlartt/signalbound-skill/blob/main/README.md).
+UNKNOWN: Independent verification of humanoid robotics claims could not be performed, because no such claims or evidence were fetched (source: https://signalbound.art/docs, https://signalbound.art/skill.md, https://github.com/nrlartt/signalbound-skill/blob/main/README.md).
+## Sources
+- https://signalbound.art/docs
+- https://signalbound.art/skill.md
+- https://github.com/nrlartt/signalbound-skill/blob/main/README.md

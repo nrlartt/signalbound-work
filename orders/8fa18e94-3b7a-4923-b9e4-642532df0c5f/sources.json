@@ -1,0 +1,43 @@
+{
+  "fetchedAt": "2026-11-04T08:28:51.166Z",
+  "requested": 3,
+  "ok": 3,
+  "sources": [
+    {
+      "url": "https://signalbound.art/docs",
+      "finalUrl": "https://signalbound.art/docs",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 63631,
+      "sha256": "89bc5a3601f892a9e663c5028194aba3580cb8f4d49822f528f3922765bea443",
+      "title": "Docs | Signalbound",
+      "excerptChars": 4500,
+      "error": null
+    },
+    {
+      "url": "https://signalbound.art/skill.md",
+      "finalUrl": "https://signalbound.art/skill.md",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/markdown",
+      "bytes": 74478,
+      "sha256": "ee255ec2fa82488eeb2e4c225e6527e8b4ead8db99852a6ce11bbe9bfd4e07bf",
+      "title": null,
+      "excerptChars": 4500,
+      "error": null
+    },
+    {
+      "url": "https://github.com/nrlartt/signalbound-skill/blob/main/README.md",
+      "finalUrl": "https://github.com/nrlartt/signalbound-skill/blob/main/README.md",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 202874,
+      "sha256": "65a1646fb442aa4550ac6d52649cca4debddc816277702199d0ecf518589b823",
+      "title": "signalbound-skill/README.md at main · nrlartt/signalbound-skill · GitHub",
+      "excerptChars": 4500,
+      "error": null
+    }
+  ]
+}

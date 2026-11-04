@@ -1,0 +1,53 @@
+{
+  "schema": "signalbound.swarm.v1",
+  "objectiveSha256": "2dba1517d03517ab79b9d78b850c251ddf951ceaa1a652a3eeccdd16d2793a2c",
+  "roster": [
+    "6629",
+    "5608",
+    "6523",
+    "1"
+  ],
+  "roles": {
+    "orchestrator": "6629",
+    "scouts": [
+      "5608"
+    ],
+    "verifiers": [
+      "6523"
+    ],
+    "synthesizer": "1"
+  },
+  "tasks": [
+    {
+      "id": "plan",
+      "phase": "plan",
+      "agentId": "6629",
+      "status": "completed"
+    },
+    {
+      "id": "shard-1",
+      "phase": "discover",
+      "agentId": "5608",
+      "status": "completed",
+      "sources": 3
+    },
+    {
+      "id": "verification-1",
+      "phase": "verify",
+      "agentId": "6523",
+      "status": "completed"
+    },
+    {
+      "id": "synthesis",
+      "phase": "synthesize",
+      "agentId": "1",
+      "status": "completed"
+    }
+  ],
+  "policy": {
+    "maxAgents": 16,
+    "sourceDiscovery": "bounded-public-search",
+    "criticalReview": "independent",
+    "payment": "fixed-roster"
+  }
+}
