@@ -1,0 +1,1199 @@
+{
+  "fetchedAt": "2026-11-04T15:08:33.416Z",
+  "requested": 45,
+  "ok": 45,
+  "relevance": {
+    "terms": [
+      "humanoid",
+      "robots",
+      "industrial",
+      "commercial",
+      "deployment",
+      "north",
+      "america",
+      "europe",
+      "asia",
+      "clear",
+      "exclusion",
+      "criteria",
+      "before",
+      "provide",
+      "one",
+      "structured",
+      "name",
+      "robot",
+      "publicly",
+      "verifiable",
+      "milestone",
+      "official",
+      "independent",
+      "secondary"
+    ],
+    "threshold": 2
+  },
+  "sources": [
+    {
+      "url": "https://humanoidanalytics.com/humanoid-deployment-tracker/",
+      "finalUrl": "https://humanoidanalytics.com/humanoid-deployment-tracker/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 249562,
+      "sha256": "75c5832c60d1aa2c2abbfa8a42555751dec62ef0def144e4d872553aca7bce2f",
+      "title": "Humanoid Deployment Tracker | Humanoid Analytics",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 13,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "north",
+          "america",
+          "europe",
+          "asia",
+          "name",
+          "robot",
+          "publicly",
+          "independent"
+        ]
+      }
+    },
+    {
+      "url": "https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations",
+      "finalUrl": "https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 165533,
+      "sha256": "6e0733e9ddcdda77ec41bbb0b07b2741814b1fefe93fd97da286593df6f809ea",
+      "title": "GXO and Agility Robotics Expand Partnership to Accelerate Deployment of Humanoids in U.S. Operations | Agility",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 9,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "north",
+          "clear",
+          "provide",
+          "robot"
+        ]
+      }
+    },
+    {
+      "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+      "finalUrl": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 169685,
+      "sha256": "6cbca8c300d1241801ef4ad22140037498bd81b0ac0dee4bdcf6cbb988a0c393",
+      "title": "Agility Unveils Digit 5 Humanoid Robot Built for Cooperatively Safe Work at Scale | Agility",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 10,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "america",
+          "one",
+          "robot",
+          "milestone",
+          "independent"
+        ]
+      }
+    },
+    {
+      "url": "https://humanoidintel.ai/who-is-buying-humanoid-robots/",
+      "finalUrl": "https://humanoidintel.ai/who-is-buying-humanoid-robots/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 165324,
+      "sha256": "9f920cbd4b93a598d57ca986a97f2f724ca48d19b8cc01383d3b0716f1c50ee0",
+      "title": "Who Is Buying Humanoid Robots? Every Known Deployment (2026) | humanoidintel.ai",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 6,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "robot"
+        ]
+      }
+    },
+    {
+      "url": "https://www.techniahqservice.com/robotics-news/humanoid-factory-deployments",
+      "finalUrl": "https://www.techniahqservice.com/robotics-news/humanoid-factory-deployments",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 78666,
+      "sha256": "22b46853a3e18da501324b4602d285ed59ab3aea4c1723e7ed3b9933367c429f",
+      "title": "Humanoid Factory Deployments: Real, Pilot or Announced?",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 11,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "america",
+          "provide",
+          "robot",
+          "publicly",
+          "official",
+          "independent"
+        ]
+      }
+    },
+    {
+      "url": "https://embodiedglobal.com/en/article/us-embodied-ai-companies-tracker-2026",
+      "finalUrl": "https://embodiedglobal.com/en/article/us-embodied-ai-companies-tracker-2026",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 253238,
+      "sha256": "ede4ef0af4e5b7fc0b4f1d0af3faa8c4c450fe77a3b5d29b91f4b4ebe5bc1a5e",
+      "title": "2026 US Robot Race: $935M Bets & Who Wins?",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 8,
+        "matches": [
+          "humanoid",
+          "robots",
+          "commercial",
+          "deployment",
+          "america",
+          "provide",
+          "robot",
+          "publicly"
+        ]
+      }
+    },
+    {
+      "url": "https://theresarobotforthat.com/blog/humanoid-robots-in-manufacturing/",
+      "finalUrl": "https://theresarobotforthat.com/blog/humanoid-robots-in-manufacturing/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 164447,
+      "sha256": "423ae68d8d71335c085361e21a807e2b28d24ba146838ef629c71e05b203561e",
+      "title": "Humanoid Robots in Manufacturing: Real 2026 Deployment Data",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 7,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "before",
+          "robot"
+        ]
+      }
+    },
+    {
+      "url": "https://humanoidapplications.com/deployments/",
+      "finalUrl": "https://humanoidapplications.com/deployments/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 137347,
+      "sha256": "dc115f10df834d0e5db87b958a293e7d4015bbb21d0336c7ed969dee144110c7",
+      "title": "Humanoid Robot Deployment Tracker: 32 Verified Milestones (2026)",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 9,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "europe",
+          "robot",
+          "publicly",
+          "milestone"
+        ]
+      }
+    },
+    {
+      "url": "https://robobrief.tech/blog/humanoid-robots-2026/",
+      "finalUrl": "https://robobrief.tech/blog/humanoid-robots-2026/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 92598,
+      "sha256": "daf3a88e551c43bcfeac25c5e9872876e6d0c6371d2edbbe7e8519f62c76d872",
+      "title": "Humanoid Robots in 2026: The Complete Tracker for Deployments, Companies, and What's Actually Working | RoboBrief",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 8,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "before",
+          "robot",
+          "milestone"
+        ]
+      }
+    },
+    {
+      "url": "https://techacb.com/manufacturing/humanoid-robots-in-factories-which-companies-are-deploying-them-in-2026/",
+      "finalUrl": "https://techacb.com/manufacturing/humanoid-robots-in-factories-which-companies-are-deploying-them-in-2026/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 138564,
+      "sha256": "470586590c2db6f1fce03bec00f86a7b0c635b452edb761f79437e6965f172db",
+      "title": "Humanoid Robots in Factories: Who Is Using Them in 2026?",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 13,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "america",
+          "europe",
+          "asia",
+          "one",
+          "robot",
+          "verifiable",
+          "independent",
+          "secondary"
+        ]
+      }
+    },
+    {
+      "url": "https://ifactoryapp.com/industries/manufacturing-plant/humanoid-robots-manufacturing-floors-2026",
+      "finalUrl": "https://ifactoryapp.com/industries/manufacturing-plant/humanoid-robots-manufacturing-floors-2026",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 83383,
+      "sha256": "7270266df53b08380713970814a853bd6d784ad7ecb93bb75d9f6733f5a96fd5",
+      "title": "Humanoid Robots on Manufacturing Floors in 2026",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 7,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "robot",
+          "publicly"
+        ]
+      }
+    },
+    {
+      "url": "https://www.humanoidhub.ai/blog/humanoid-robotics-2026-flashy-demos-pilot-deployments-what-s",
+      "finalUrl": "https://www.humanoidhub.ai/blog/humanoid-robotics-2026-flashy-demos-pilot-deployments-what-s",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 198106,
+      "sha256": "bb2190222a6d62ebe5e808145dfd5071005e77b95895cc111555d3b737db22c6",
+      "title": "Humanoid robotics in 2026: what’s реально deployed | HumanoidHub",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 11,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "deployment",
+          "clear",
+          "before",
+          "one",
+          "structured",
+          "robot",
+          "publicly",
+          "verifiable"
+        ]
+      }
+    },
+    {
+      "url": "https://www.insidedeeptech.com/the-top-humanoid-robot-startups-of-2026-ranked-by-real-deployments/",
+      "finalUrl": "https://www.insidedeeptech.com/the-top-humanoid-robot-startups-of-2026-ranked-by-real-deployments/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 44782,
+      "sha256": "71b41b88a714ac99d0f43a0ab310794451ec3679b0d6a4aa0617ed12b529e6ed",
+      "title": "The Top Humanoid Robot Startups of 2026, Ranked by Real Deployments",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 8,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "provide",
+          "robot",
+          "verifiable"
+        ]
+      }
+    },
+    {
+      "url": "https://www.humanoidsdaily.com/features/hardware-first-brains-later-the-great-american-humanoid-scale-up-of-2026",
+      "finalUrl": "https://www.humanoidsdaily.com/features/hardware-first-brains-later-the-great-american-humanoid-scale-up-of-2026",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 227881,
+      "sha256": "08aa4971844e1a783a06a4ee825f05bc0e0bb8c1d6a405b9215977d4d168e882",
+      "title": "Hardware First, Brains Later? The Great American Humanoid Scale-Up of 2026 | Humanoids Daily",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 9,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "america",
+          "europe",
+          "one",
+          "robot",
+          "milestone"
+        ]
+      }
+    },
+    {
+      "url": "https://humanoidindex.org/",
+      "finalUrl": "https://humanoidindex.org/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 217291,
+      "sha256": "0100b0d27e31af2788fff894a982763d9a40791c916d05d3f097fb8e95851acf",
+      "title": "Humanoid Index — The intelligence platform for humanoid robotics",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 9,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "europe",
+          "provide",
+          "robot",
+          "publicly"
+        ]
+      }
+    },
+    {
+      "url": "https://www.nytimes.com/2026/08/13/business/humanoid-robot-us-china.html",
+      "finalUrl": "https://www.nytimes.com/2026/08/13/business/humanoid-robot-us-china.html",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 415433,
+      "sha256": "2a7026e63a0b1536774bd185a8649a6f4432f678608872d7e032b07703c34542",
+      "title": "America Wants to Make Its Own Humanoid Robots. That Won’t Be Easy. - The New York Times",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 8,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "north",
+          "america",
+          "asia",
+          "robot",
+          "official"
+        ]
+      }
+    },
+    {
+      "url": "https://www.techtimes.com/articles/325304/20260824/bosch-confirms-august-2027-start-europes-first-humanoid-robot-production-line.htm",
+      "finalUrl": "https://www.techtimes.com/articles/325304/20260824/bosch-confirms-august-2027-start-europes-first-humanoid-robot-production-line.htm",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 346222,
+      "sha256": "7248f3624005a95149cd593b7a8f3499cc5cc2787a5a93d9241f88365c3437b6",
+      "title": "Bosch Confirms August 2027 Start for Europe's First Humanoid Robot Production Line",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 7,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "europe",
+          "clear",
+          "robot"
+        ]
+      }
+    },
+    {
+      "url": "https://tech.eu/2026/08/27/motion-lands-2m-to-expand-humanoid-robot-deployments-across-europe/",
+      "finalUrl": "https://tech.eu/2026/08/27/motion-lands-2m-to-expand-humanoid-robot-deployments-across-europe/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 74696,
+      "sha256": "ded33947c1c132726dc05c9396fbe5b4c19a7dc3dfeb185d2b38b85e35ccc1a2",
+      "title": "Motion lands $2M to expand humanoid robot deployments across Europe - Tech.eu",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 10,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "europe",
+          "before",
+          "provide",
+          "one",
+          "robot"
+        ]
+      }
+    },
+    {
+      "url": "https://www.humanoidsdaily.com/features/the-humanoids-of-europe",
+      "finalUrl": "https://www.humanoidsdaily.com/features/the-humanoids-of-europe",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 353693,
+      "sha256": "688a8619457b85bb704f1e8a823d2fb99c1dce40708faa98ad8e6ddd14ff1c7c",
+      "title": "The Humanoids of Europe: Built by Their Customers | Humanoids Daily",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 10,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "deployment",
+          "america",
+          "europe",
+          "clear",
+          "one",
+          "robot",
+          "publicly"
+        ]
+      }
+    },
+    {
+      "url": "https://www.techtimes.com/articles/321011/20260720/unitree-humanoid-robot-enters-europe-days-after-pentagon-flags-it-chinese-military-tech.htm",
+      "finalUrl": "https://www.techtimes.com/articles/321011/20260720/unitree-humanoid-robot-enters-europe-days-after-pentagon-flags-it-chinese-military-tech.htm",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 361442,
+      "sha256": "2cf0f47fbb219c2a0ba614ad213a6d91d2bcb3eddc4808328b5cb5723d7b9feb",
+      "title": "Unitree Humanoid Robot Enters Europe Days After Pentagon Flags It as Chinese Military Tech",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 10,
+        "matches": [
+          "humanoid",
+          "robots",
+          "commercial",
+          "deployment",
+          "north",
+          "america",
+          "europe",
+          "asia",
+          "robot",
+          "independent"
+        ]
+      }
+    },
+    {
+      "url": "https://www.arcweb.com/blog/bosch-humanoid-move-european-humanoid-manufacturing-toward-commercialization",
+      "finalUrl": "https://www.arcweb.com/blog/bosch-humanoid-move-european-humanoid-manufacturing-toward-commercialization",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 83561,
+      "sha256": "342fa8e3777070304a55baa654fd1912df9074bafa94b1b36db315c3120515b6",
+      "title": "Bosch and Humanoid Move European Humanoid Manufacturing Toward Commercialization | ARC Advisory Group",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 8,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "europe",
+          "asia",
+          "robot",
+          "publicly"
+        ]
+      }
+    },
+    {
+      "url": "https://robotspoint.com/humanoid-deployments-europe/",
+      "finalUrl": "https://robotspoint.com/humanoid-deployments-europe/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 81729,
+      "sha256": "d3191ad970522d138972960049ee23898b3e1bc285906e706a088fca72377a45",
+      "title": "Humanoid robots in Europe: first deployments and cases",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 9,
+        "matches": [
+          "humanoid",
+          "robots",
+          "deployment",
+          "north",
+          "america",
+          "europe",
+          "before",
+          "robot",
+          "publicly"
+        ]
+      }
+    },
+    {
+      "url": "https://roboticsandautomationnews.com/2026/08/27/motion-raises-2-million-to-put-humanoid-robots-to-work-in-european-factories/104497/",
+      "finalUrl": "https://roboticsandautomationnews.com/2026/08/27/motion-raises-2-million-to-put-humanoid-robots-to-work-in-european-factories/104497/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 120980,
+      "sha256": "bd97dcb70c32658391d5e5ac6492fd35334313c08d98c8763aaa13be81e6eecd",
+      "title": "Motion raises $2 million to deploy humanoid robots in European factories",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 10,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "deployment",
+          "europe",
+          "before",
+          "provide",
+          "one",
+          "robot",
+          "secondary"
+        ]
+      }
+    },
+    {
+      "url": "https://www.agibot.com/article/231/detail/81.html",
+      "finalUrl": "https://www.agibot.com/article/231/detail/81.html",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 78805,
+      "sha256": "5f6d4c9fa7b751841a2afaf9784276e6ae8783a1df8bfc0ca6c3efeb6e1c4643",
+      "title": "AGIBOT Hosts UK APC2026 in London, Advancing Commercial Deployment of Humanoid Robotics in Europe-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 10,
+        "matches": [
+          "humanoid",
+          "robots",
+          "commercial",
+          "deployment",
+          "europe",
+          "clear",
+          "one",
+          "robot",
+          "milestone",
+          "secondary"
+        ]
+      }
+    },
+    {
+      "url": "https://press.siemens.com/global/en/pressrelease/siemens-and-humanoid-bring-physical-ai-factory-floor-deploying-humanoids-industrial",
+      "finalUrl": "https://press.siemens.com/global/en/pressrelease/siemens-and-humanoid-bring-physical-ai-factory-floor-deploying-humanoids-industrial",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 84258,
+      "sha256": "3f423a954a6c828186fca62be76bf9cccc6b665ed2cfa7ca989ef5b199ca0481",
+      "title": "Siemens and Humanoid bring Physical AI to the factory floor: deploying humanoids in industrial operations with NVIDIA | Press | Company | Siemens",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 3,
+        "matches": [
+          "humanoid",
+          "industrial",
+          "name"
+        ]
+      }
+    },
+    {
+      "url": "https://www.originofbots.com/articles/top-9-european-humanoid-companies-to-watch-in-2026-2027",
+      "finalUrl": "https://www.originofbots.com/articles/top-9-european-humanoid-companies-to-watch-in-2026-2027",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 303229,
+      "sha256": "da0d1e6bb78088b9372991532d9013a456851b5e372fe2e57b3341d63e752634",
+      "title": "Top 9 European Humanoid Companies to Watch in 2026-2027 | Origin Of Bots",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 9,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "europe",
+          "one",
+          "name",
+          "robot"
+        ]
+      }
+    },
+    {
+      "url": "https://xiumlabs.com/blogs/humanoid-robots-uk-europe-security",
+      "finalUrl": "https://xiumlabs.com/blogs/humanoid-robots-uk-europe-security",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 108159,
+      "sha256": "f7d7a96f00ad5bb2e672fa66620a6823f1653065e6a256570df805189f0fe012",
+      "title": "Humanoid Robots in the UK and Europe: Who Is Deploying Them, and the Security Questions Nobody Is Asking | Xium Labs",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 11,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "north",
+          "europe",
+          "clear",
+          "before",
+          "one",
+          "robot"
+        ]
+      }
+    },
+    {
+      "url": "https://www.eu-startups.com/2026/08/10-startups-shaping-our-robotic-future/",
+      "finalUrl": "https://www.eu-startups.com/2026/08/10-startups-shaping-our-robotic-future/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 517414,
+      "sha256": "db5ba1c36c8bfb4e69e3b653912311bdea9f33531f84894e49fd2ae8b6242aed",
+      "title": "10 European startups shaping our robotic future | EU-Startups",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 6,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "europe",
+          "one",
+          "robot"
+        ]
+      }
+    },
+    {
+      "url": "https://www.humanoidsdaily.com/news/from-prototype-to-production-humanoid-taps-bosch-for-european-manufacturing-push",
+      "finalUrl": "https://www.humanoidsdaily.com/news/from-prototype-to-production-humanoid-taps-bosch-for-european-manufacturing-push",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 190202,
+      "sha256": "5665fb1db0d24959f9ab66a08ddddbcdb7fbf7df10558941b77cff5ad03d0691",
+      "title": "From Prototype to Production: Humanoid Taps Bosch for European Manufacturing Push | Humanoids Daily",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 10,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "europe",
+          "one",
+          "structured",
+          "robot",
+          "official"
+        ]
+      }
+    },
+    {
+      "url": "https://www.techtimes.com/articles/325598/20260826/chinas-humanoid-robots-win-factory-contracts-vla-models-drive-orders.htm",
+      "finalUrl": "https://www.techtimes.com/articles/325598/20260826/chinas-humanoid-robots-win-factory-contracts-vla-models-drive-orders.htm",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 360160,
+      "sha256": "61e8eee0328f9d8d3d351c7406e75b72ac5dfb6f0b79fa0708b61664ae41de7f",
+      "title": "China's Humanoid Robots Win Factory Contracts: VLA Models Drive Orders",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 8,
+        "matches": [
+          "humanoid",
+          "robots",
+          "commercial",
+          "deployment",
+          "clear",
+          "robot",
+          "official",
+          "independent"
+        ]
+      }
+    },
+    {
+      "url": "https://www.techtimes.com/articles/318641/20260618/humanoid-robots-china-ships-90-global-units-now-leads-ai-benchmarks.htm",
+      "finalUrl": "https://www.techtimes.com/articles/318641/20260618/humanoid-robots-china-ships-90-global-units-now-leads-ai-benchmarks.htm",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 353023,
+      "sha256": "be7b371cc3dc66b64f5ae73ef367e290df870210f4c8ebf9e433ca5526bb1bcd",
+      "title": "Humanoid Robots: China Ships 90% of Global Units and Now Leads AI Benchmarks",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 11,
+        "matches": [
+          "humanoid",
+          "robots",
+          "commercial",
+          "deployment",
+          "america",
+          "asia",
+          "clear",
+          "structured",
+          "robot",
+          "publicly",
+          "milestone"
+        ]
+      }
+    },
+    {
+      "url": "https://www.thebotscout.com/robotics-by-country/chinese-humanoid-robot-deployment/",
+      "finalUrl": "https://www.thebotscout.com/robotics-by-country/chinese-humanoid-robot-deployment/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 44795,
+      "sha256": "d684404dccfc6170e09bbe3382f9af70d342df7695a07d16eecac0f1eba52164",
+      "title": "China Humanoid Robot Deployment: 2026 Rollout Guide",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 8,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "one",
+          "robot",
+          "official"
+        ]
+      }
+    },
+    {
+      "url": "https://robots-daily.com/waic-2026-chinas-humanoid-robots-move-from-demos-to-real-world-deployment/",
+      "finalUrl": "https://robots-daily.com/waic-2026-chinas-humanoid-robots-move-from-demos-to-real-world-deployment/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 118971,
+      "sha256": "16e2ee2bdec49571274ac2ce5ef776a89811e52c1acf66be3be2619fcfaf977b",
+      "title": "WAIC 2026: China’s Humanoid Robots Move from Demos to Real-World Deployment - Robots Daily",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 8,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "before",
+          "one",
+          "robot"
+        ]
+      }
+    },
+    {
+      "url": "https://global.chinadaily.com.cn/a/202606/11/WS6a2ac863a310d6866eb4dcd2.html",
+      "finalUrl": "https://global.chinadaily.com.cn/a/202606/11/WS6a2ac863a310d6866eb4dcd2.html",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 39028,
+      "sha256": "881f0c00aafd18b27196987bd3a2e80321fb1b5b0ee6ba105f76448cdb9f05bd",
+      "title": "Humanoid robots move onto fast track - Chinadaily.com.cn",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 9,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "north",
+          "asia",
+          "robot",
+          "publicly"
+        ]
+      }
+    },
+    {
+      "url": "https://cnbizinsight.com/from-demo-to-factory-floor-how-chinas-embodied-ai-companies-are-proving-their-worth-in-real-world-deployments/",
+      "finalUrl": "https://cnbizinsight.com/from-demo-to-factory-floor-how-chinas-embodied-ai-companies-are-proving-their-worth-in-real-world-deployments/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 216134,
+      "sha256": "05c06b119da1b49c4e96bd457989d5507b54f4d00b08a020d5925e0746069aa4",
+      "title": "From Demo to Factory Floor: How China's Embodied AI Companies Are Proving Their Worth in Real-World Deployments",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 10,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "clear",
+          "one",
+          "structured",
+          "robot",
+          "secondary"
+        ]
+      }
+    },
+    {
+      "url": "https://embodiedglobal.com/en/article/china-miit-sasac-humanoid-robot-real-scenario-training-action-2026",
+      "finalUrl": "https://embodiedglobal.com/en/article/china-miit-sasac-humanoid-robot-real-scenario-training-action-2026",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 237952,
+      "sha256": "b7d388abb965a12c56356d7bff551c5477e61b15e716feb3abe3992aa7204a4a",
+      "title": "Miit: Embodied AI and Robotics Update",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 8,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "deployment",
+          "one",
+          "structured",
+          "robot",
+          "secondary"
+        ]
+      }
+    },
+    {
+      "url": "https://digitechbytes.com/emerging-consumer-tech-explained/the-humanoid-robotics-reality-check-q2-2026-pilot-to-production-status/",
+      "finalUrl": "https://digitechbytes.com/emerging-consumer-tech-explained/the-humanoid-robotics-reality-check-q2-2026-pilot-to-production-status/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 215818,
+      "sha256": "6a64bfc5824a67a499b490f1fc5842f6798f15f4e9e258f06a66218ed0d440a1",
+      "title": "The Humanoid Robotics Reality Check: Q2 2026 Pilot-to-Production Status - Digitech Bytes",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 8,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "deployment",
+          "before",
+          "one",
+          "robot",
+          "milestone"
+        ]
+      }
+    },
+    {
+      "url": "https://roboticsandautomationnews.com/2026/01/30/global-humanoid-robot-installations-reach-16000-units-as-commercial-deployments-accelerate/98422/",
+      "finalUrl": "https://roboticsandautomationnews.com/2026/01/30/global-humanoid-robot-installations-reach-16000-units-as-commercial-deployments-accelerate/98422/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 122980,
+      "sha256": "f08645eac01d9013a360ef9a178dbc16d73340f2c700d38a01cf56fdfbe55e37",
+      "title": "Global humanoid robot installations reach 16,000 units as commercial use accelerates",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 8,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "structured",
+          "robot",
+          "secondary"
+        ]
+      }
+    },
+    {
+      "url": "https://presentofai.com/insights/humanoid-robot-industrial-surge",
+      "finalUrl": "https://presentofai.com/insights/humanoid-robot-industrial-surge",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 97067,
+      "sha256": "e72ed313d87b1c43483e560e61a8641c090bb970b52895ba3151fd13a642095f",
+      "title": "Humanoids Hit the Factory Floor: From Prototype to Mass Production in 18 Months · presentofai",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 9,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "clear",
+          "one",
+          "robot",
+          "independent"
+        ]
+      }
+    },
+    {
+      "url": "https://www.counterpointresearch.com/en/insights/global-humanoid-robot-shipments-soar-nearly-300-percent-yoy-in-h1-2026",
+      "finalUrl": "https://counterpointresearch.com/en/insights/global-humanoid-robot-shipments-soar-nearly-300-percent-yoy-in-h1-2026",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 267842,
+      "sha256": "df41eeeaba291604eff015064b63e874c1c1bf7718c3fe203c98603fddc00a97",
+      "title": "Global Humanoid Robot Shipments Soar Nearly 300% YoY in H1 2026, Driven by Commercial Deployments",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 7,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "name",
+          "robot"
+        ]
+      }
+    },
+    {
+      "url": "https://unpacked.fyi/article/global-humanoid-robotics-market",
+      "finalUrl": "https://unpacked.fyi/article/global-humanoid-robotics-market",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 160238,
+      "sha256": "b69a0e2518f272e3b751002d2b4cea372c07a612eeeabaaf1e47663883d82c5c",
+      "title": "Global Humanoid Robotics Market Analysis: 2025 Deployment and Trade Patterns | Unpacked",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 11,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "north",
+          "america",
+          "asia",
+          "clear",
+          "provide",
+          "robot"
+        ]
+      }
+    },
+    {
+      "url": "https://humanoidapac.ai/trends-en.html",
+      "finalUrl": "https://humanoidapac.ai/trends-en.html",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 59291,
+      "sha256": "55f98ff1446675cf4902dbce3ebcec774578d8be6644521741055d3a16f6a9d8",
+      "title": "APAC Humanoid Robot Trends | Humanoid APAC",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 10,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "asia",
+          "before",
+          "provide",
+          "robot",
+          "milestone"
+        ]
+      }
+    },
+    {
+      "url": "https://asiapulse.blog/2026/05/19/humanoid-robotics-the-blue-collar-reality/",
+      "finalUrl": "https://asiapulse.blog/2026/05/19/humanoid-robotics-the-blue-collar-reality/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 68982,
+      "sha256": "1317477d554054cf79fcfb516b6bca981b08e6c865f73a5a4759e1e3d4ca7717",
+      "title": "Humanoid Robotics: The Blue-Collar Reality - Asia Pulse",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 9,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "europe",
+          "asia",
+          "structured",
+          "robot"
+        ]
+      }
+    },
+    {
+      "url": "https://sourcebotics.com/guides/state-of-chinese-humanoid-robotics-2026/",
+      "finalUrl": "https://sourcebotics.com/guides/state-of-chinese-humanoid-robotics-2026/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 68182,
+      "sha256": "c00118334bf528be707ce8cdb7da4b184a762d1159036a06511e91222417e3c0",
+      "title": "State of Chinese Humanoid Robotics 2026 | Sourcebotics",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 7,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "structured",
+          "robot"
+        ]
+      }
+    },
+    {
+      "url": "https://insideai.news/news/robotics/china-humanoid-robot-startups-commercial-deployment/9906/",
+      "finalUrl": "https://insideai.news/news/robotics/china-humanoid-robot-startups-commercial-deployment/9906/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 515339,
+      "sha256": "3cfdee8a0f41a7e68e212931dfcd4c3a6cfbf2b0587163ac4d3314791d0a4c41",
+      "title": "China's Humanoid Robot Startups Move From Demos to Real Jobs",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 8,
+        "matches": [
+          "humanoid",
+          "robots",
+          "industrial",
+          "commercial",
+          "deployment",
+          "one",
+          "robot",
+          "secondary"
+        ]
+      }
+    }
+  ]
+}
