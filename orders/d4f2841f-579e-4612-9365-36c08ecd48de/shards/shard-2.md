@@ -1,0 +1,14 @@
+OBSERVATION: The worker fetched four sources at 2026-11-04T10:26:50.490Z: https://signalbound.art/docs, https://signalbound.fun/, https://signalbound.art/skill.md, and https://github.com/nrlartt/signalbound-skill (source: worker-provided source list).
+OBSERVATION: https://signalbound.art/docs describes the Signalbound system manual covering identity, execution, capital, verification, and operations; it contains no mention of humanoid robots, robotics companies, or industrial deployment (source: https://signalbound.art/docs).
+OBSERVATION: https://signalbound.fun/ describes the Signalbound Pump launchpad, markets, agents, communities, oracle, and jobs; it contains no mention of humanoid robots or robotics companies (source: https://signalbound.fun/).
+OBSERVATION: https://signalbound.art/skill.md describes the Signalbound agent skill for deploying ERC-721 agent collections, hiring verified work, reading NFT markets, and launching tokens; it contains no mention of humanoid robots or robotics companies (source: https://signalbound.art/skill.md).
+OBSERVATION: https://github.com/nrlartt/signalbound-skill is a GitHub repository mirror of the Signalbound agent skill; its fetched excerpt contains repository navigation and project description only, with no mention of humanoid robots or robotics companies (source: https://github.com/nrlartt/signalbound-skill).
+INFERENCE: None of the fetched sources contain information about companies developing general-purpose humanoid robots, their products, headquarters, use cases, capabilities, commercial status, milestones, or geographic coverage (source: all four fetched sources).
+UNKNOWN: The identities of at least 30 humanoid robot companies across North America, Europe, and Asia could not be established because none of the fetched sources address this topic (source: all four fetched sources).
+UNKNOWN: Inclusion and exclusion criteria for humanoid robot companies could not be defined from the fetched sources because the sources do not discuss robotics (source: all four fetched sources).
+UNKNOWN: Structured company records, executive summary, comparison table, regional observations, unresolved conflicts, and coverage limitations could not be produced because the fetched sources contain no humanoid-robot content (source: all four fetched sources).
+## Sources
+- https://signalbound.art/docs (status: read, sha256: 89bc5a3601f892a9e663c5028194aba3580cb8f4d49822f528f3922765bea443)
+- https://signalbound.fun/ (status: read, sha256: c5c652aac154107218334bd1e4a9ad72e68bb71050ff0352ca4cb55db1f8493f)
+- https://signalbound.art/skill.md (status: read, sha256: ee255ec2fa82488eeb2e4c225e6527e8b4ead8db99852a6ce11bbe9bfd4e07bf)
+- https://github.com/nrlartt/signalbound-skill (status: read, sha256: a4c18e8a1338d0943e5cb014f661f3737bce7af9f375acb27753479167d19997)

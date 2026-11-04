@@ -1,0 +1,257 @@
+{
+  "fetchedAt": "2026-11-04T10:28:34.271Z",
+  "requested": 10,
+  "ok": 10,
+  "relevance": {
+    "terms": [
+      "project",
+      "launch",
+      "order",
+      "belongs",
+      "signalbound",
+      "pump",
+      "token",
+      "work",
+      "only",
+      "brief",
+      "below",
+      "ordered",
+      "fetched",
+      "json",
+      "each",
+      "url"
+    ],
+    "threshold": 2
+  },
+  "sources": [
+    {
+      "url": "https://signalbound.art/docs",
+      "finalUrl": "https://signalbound.art/docs",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 63631,
+      "sha256": "89bc5a3601f892a9e663c5028194aba3580cb8f4d49822f528f3922765bea443",
+      "title": "Docs | Signalbound",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 3,
+        "matches": [
+          "signalbound",
+          "token",
+          "only"
+        ]
+      }
+    },
+    {
+      "url": "https://api.signalbound.art/",
+      "finalUrl": "https://api.signalbound.art/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 16644,
+      "sha256": "0a8685cba2f82f720e8bd56d81b1d546602877bdd740ccadd036195d7a151363",
+      "title": "Signalbound API",
+      "excerptChars": 3258,
+      "error": null,
+      "relevance": {
+        "score": 4,
+        "matches": [
+          "signalbound",
+          "token",
+          "json",
+          "url"
+        ]
+      }
+    },
+    {
+      "url": "https://signalbound.art/",
+      "finalUrl": "https://signalbound.art/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 17427,
+      "sha256": "dba15ec8df68d3ba362d2245fbf751414f918094b8e2ed6d9b42792943be1696",
+      "title": "Signalbound - on-chain pixel agents on Ethereum",
+      "excerptChars": 3678,
+      "error": null,
+      "relevance": {
+        "score": 3,
+        "matches": [
+          "signalbound",
+          "token",
+          "each"
+        ]
+      }
+    },
+    {
+      "url": "https://signalbound.art/guide",
+      "finalUrl": "https://signalbound.art/guide",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 52554,
+      "sha256": "80b0dcf226858ea31d759b7b65ec5c0e7f58a087d1895e9e0b30819e89b17693",
+      "title": "Guide | Signalbound",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 7,
+        "matches": [
+          "signalbound",
+          "token",
+          "work",
+          "only",
+          "below",
+          "json",
+          "each"
+        ]
+      }
+    },
+    {
+      "url": "https://signalbound.fun/",
+      "finalUrl": "https://signalbound.fun/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 77297,
+      "sha256": "c5c652aac154107218334bd1e4a9ad72e68bb71050ff0352ca4cb55db1f8493f",
+      "title": "Signalbound Pump",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 10,
+        "matches": [
+          "project",
+          "launch",
+          "order",
+          "signalbound",
+          "pump",
+          "token",
+          "work",
+          "only",
+          "brief",
+          "ordered"
+        ]
+      }
+    },
+    {
+      "url": "https://signalbound.art/skill.md",
+      "finalUrl": "https://signalbound.art/skill.md",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/markdown",
+      "bytes": 74478,
+      "sha256": "ee255ec2fa82488eeb2e4c225e6527e8b4ead8db99852a6ce11bbe9bfd4e07bf",
+      "title": null,
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 10,
+        "matches": [
+          "launch",
+          "order",
+          "signalbound",
+          "token",
+          "work",
+          "only",
+          "below",
+          "ordered",
+          "json",
+          "each"
+        ]
+      }
+    },
+    {
+      "url": "https://github.com/nrlartt/signalbound-skill",
+      "finalUrl": "https://github.com/nrlartt/signalbound-skill",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 227763,
+      "sha256": "a4c18e8a1338d0943e5cb014f661f3737bce7af9f375acb27753479167d19997",
+      "title": "GitHub - nrlartt/signalbound-skill: Signalbound agent skill — launch, trade, run Agents, and read onchain intelligence. Canonical copy: https://signalbound.art/skill.md · GitHub",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 7,
+        "matches": [
+          "project",
+          "launch",
+          "signalbound",
+          "token",
+          "work",
+          "only",
+          "url"
+        ]
+      }
+    },
+    {
+      "url": "https://x.com/signalboundart",
+      "finalUrl": "https://x.com/signalboundart",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 177271,
+      "sha256": "4319f266760eb1a542e4074d781c5df530a151a7c0acd2339d25dae8f8e55a34",
+      "title": "Signalbound (@signalboundart) / X",
+      "excerptChars": 2128,
+      "error": null,
+      "relevance": {
+        "score": 4,
+        "matches": [
+          "launch",
+          "signalbound",
+          "pump",
+          "token"
+        ]
+      }
+    },
+    {
+      "url": "https://github.com/nrlartt/signalbound-skill/blob/main/SKILL.md",
+      "finalUrl": "https://github.com/nrlartt/signalbound-skill/blob/main/SKILL.md",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 506084,
+      "sha256": "1b5efc6f16a066b9caf22688c8f714a77a282a91b1f410ae9f07721d391e17f1",
+      "title": "signalbound-skill/SKILL.md at main · nrlartt/signalbound-skill · GitHub",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 6,
+        "matches": [
+          "project",
+          "launch",
+          "signalbound",
+          "token",
+          "work",
+          "only"
+        ]
+      }
+    },
+    {
+      "url": "https://x.com/nrlartt/status/2107862428734173429",
+      "finalUrl": "https://x.com/nrlartt/status/2107862428734173429",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 155180,
+      "sha256": "4252ab316b0d24648e726db69baaba3c3664c845f5a85aa42be494c3c0191057",
+      "title": "NRL on X: \"Signalbound Launchpad is almost ready. \n\nWithin the next few days, we’ll start testing with a small group of early users. After that, we’ll move toward Ethereum Mainnet.\n\nThis will be the first Agentic Launchpad on @ethereum.\n\n@V",
+      "excerptChars": 4500,
+      "error": null,
+      "relevance": {
+        "score": 5,
+        "matches": [
+          "project",
+          "launch",
+          "signalbound",
+          "token",
+          "work"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "schema": "signalbound.swarm.v1",
+  "objectiveSha256": "3015ae9a448a464af1d707099da0d4ea764d1c259969f73685c094136bb308fc",
+  "roster": [
+    "6615",
+    "2580",
+    "2329",
+    "6453"
+  ],
+  "roles": {
+    "orchestrator": "6615",
+    "scouts": [
+      "2580"
+    ],
+    "verifiers": [
+      "2329"
+    ],
+    "synthesizer": "6453"
+  },
+  "tasks": [
+    {
+      "id": "plan",
+      "phase": "plan",
+      "agentId": "6615",
+      "status": "completed"
+    },
+    {
+      "id": "shard-1",
+      "phase": "discover",
+      "agentId": "2580",
+      "status": "completed",
+      "sources": 4
+    },
+    {
+      "id": "shard-2",
+      "phase": "discover",
+      "agentId": "2580",
+      "status": "completed",
+      "sources": 6
+    },
+    {
+      "id": "shard-3",
+      "phase": "discover",
+      "agentId": "2580",
+      "status": "completed",
+      "sources": 4
+    },
+    {
+      "id": "verification-1",
+      "phase": "verify",
+      "agentId": "2329",
+      "status": "completed"
+    },
+    {
+      "id": "synthesis",
+      "phase": "synthesize",
+      "agentId": "6453",
+      "status": "completed"
+    }
+  ],
+  "orchestration": {
+    "requestedConcurrency": 4,
+    "assignedAgents": 4,
+    "itemBudget": 56,
+    "episodeBudget": 3,
+    "executedTasks": 6,
+    "reasons": [
+      "exhaustive scope",
+      "one structured record per entity",
+      "open-source discovery",
+      "independent evidence verification",
+      "regional coverage",
+      "30 requested entities"
+    ]
+  },
+  "policy": {
+    "maxAgents": 100,
+    "maxConcurrentTasks": 8,
+    "sourceDiscovery": "bounded-public-search",
+    "criticalReview": "independent",
+    "payment": "fixed-roster",
+    "scheduling": "bounded-waves"
+  }
+}

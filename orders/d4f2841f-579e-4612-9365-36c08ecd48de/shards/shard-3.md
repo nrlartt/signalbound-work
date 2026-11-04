@@ -1,0 +1,12 @@
+OBSERVATION: Source 1 (https://x.com/signalboundart) is the Signalbound X profile; it contains posts about NFTs, NFTStocks, NVIDIA Nemotron 3.5 Super VL, Signalbound Pump Protocol, and an Agentic Launchpad on Ethereum; it contains no humanoid robot company information. (source: https://x.com/signalboundart)
+OBSERVATION: Source 2 (https://x.com/nrlartt/status/2107862428734173429) is an NRL post about the Signalbound Launchpad being almost ready, moving toward Ethereum Mainnet, and building an Agent-native economy; it contains no humanoid robot company information. (source: https://x.com/nrlartt/status/2107862428734173429)
+OBSERVATION: Source 3 (https://github.com/nrlartt/signalbound-skill) is a GitHub repository for a Signalbound agent skill to launch, trade, run Agents, and read onchain intelligence; it references ERC-721, ERC-8004, ERC-8048, and signalbound.art; it contains no humanoid robot company information. (source: https://github.com/nrlartt/signalbound-skill)
+OBSERVATION: Source 4 (https://github.com/nrlartt/signalbound-skill/blob/main/SKILL.md) is the SKILL.md file describing the Signalbound NFT collection skill, including deploy/verify/mint/read flow, art modes, agent NFT registration, traits, limits, and endpoints at api.signalbound.art; it contains no humanoid robot company information. (source: https://github.com/nrlartt/signalbound-skill/blob/main/SKILL.md)
+INFERENCE: None of the four fetched sources provide information about companies developing general-purpose humanoid robots for industrial or commercial deployment, so no company records, inclusion/exclusion criteria, executive summary, comparison table, regional observations, or conflicts can be grounded in these sources. (source: all four fetched sources)
+UNKNOWN: The identities of at least 30 humanoid robot companies across North America, Europe, and Asia could not be established because the fetched sources do not cover that topic. (source: all four fetched sources)
+UNKNOWN: Humanoid robot product names, intended use cases, publicly demonstrated capabilities, commercial or deployment status, most recent verifiable milestones, official sources, and independent secondary sources could not be established because the fetched sources do not cover that topic. (source: all four fetched sources)
+## Sources
+https://x.com/signalboundart
+https://x.com/nrlartt/status/2107862428734173429
+https://github.com/nrlartt/signalbound-skill
+https://github.com/nrlartt/signalbound-skill/blob/main/SKILL.md
