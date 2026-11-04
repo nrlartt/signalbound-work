@@ -1,0 +1,38 @@
+{
+  "contract": "ExampleHook",
+  "network": "ethereum-sepolia",
+  "chainId": 11155111,
+  "poolManager": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+  "constructorArguments": [
+    {"name": "poolManager", "type": "address", "value": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543"},
+    {"name": "initialOwner", "type": "address", "value": "0x5469a029dbf2138723eD005634F4Baa951b2Bc8f"},
+    {"name": "initialMaximum", "type": "uint256", "value": "1000000000000000000000"}
+  ],
+  "accountsOrRoles": [
+    {"name": "deployer", "role": "signs the deployment transaction with their own wallet"},
+    {"name": "initialOwner", "role": "initial owner set by the constructor"}
+  ],
+  "permissions": {
+    "beforeSwap": true,
+    "afterSwap": false,
+    "beforeInitialize": false,
+    "afterInitialize": false,
+    "beforeAddLiquidity": false,
+    "afterAddLiquidity": false,
+    "beforeRemoveLiquidity": false,
+    "afterRemoveLiquidity": false,
+    "beforeDonate": false,
+    "afterDonate": false,
+    "beforeSwapReturn": false,
+    "afterSwapReturn": false
+  },
+  "steps": [
+    "Set SEPOLIA_RPC_URL to an Ethereum Sepolia RPC endpoint.",
+    "Fund the deployer wallet with Sepolia ETH for gas.",
+    "Run: forge script script/DeployExampleHook.s.sol --rpc-url $SEPOLIA_RPC_URL --broadcast --verify",
+    "Confirm the deployed contract address from the transaction receipt.",
+    "Call getHookPermissions() and verify beforeSwap is true and all other callbacks are false.",
+    "Confirm the hook address satisfies the declared beforeSwap permission before registering it in a pool key.",
+    "Confirm the PoolManager bound to the hook is 0xE03A1074c86CFeDd5C142C4F04F1a1536e203543."
+  ]
+}
