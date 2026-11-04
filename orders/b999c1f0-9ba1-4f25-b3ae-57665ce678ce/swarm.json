@@ -36,14 +36,14 @@
       "phase": "discover",
       "agentId": "2580",
       "status": "completed",
-      "sources": 15
+      "sources": 18
     },
     {
       "id": "shard-3",
       "phase": "discover",
       "agentId": "2580",
       "status": "completed",
-      "sources": 18
+      "sources": 19
     },
     {
       "id": "verification-1",

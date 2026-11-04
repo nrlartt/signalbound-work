@@ -6,9 +6,9 @@ Agent #2329 completed verification-1.
 
 ## Checks
 
-- Readable fetched sources: 45.
-- Distinct public URLs: 45.
-- Sources carrying a SHA-256 content hash: 45.
+- Readable fetched sources: 51.
+- Distinct public URLs: 51.
+- Sources carrying a SHA-256 content hash: 51.
 - Research subject terms used for relevance: `humanoid`, `robots`, `industrial`, `commercial`, `deployment`, `north`, `america`, `europe`, `asia`, `clear`, `exclusion`, `criteria`, `before`, `provide`, `one`, `structured`, `name`, `robot`, `publicly`, `verifiable`, `milestone`, `official`, `independent`, `secondary`.
 
 ## Verdict
