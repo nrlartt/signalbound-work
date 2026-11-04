@@ -1,0 +1,39 @@
+{
+  "contract": "CustomSwapHook",
+  "network": "ethereum-sepolia",
+  "chainId": 11155111,
+  "poolManager": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+  "constructorArguments": [
+    {
+      "name": "poolManager",
+      "type": "address",
+      "value": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543"
+    }
+  ],
+  "preDeploymentAccounts": [
+    {
+      "role": "initialOwner",
+      "address": "0x5469a029dbf2138723eD005634F4Baa951b2Bc8f"
+    }
+  ],
+  "permissions": {
+    "beforeSwap": true,
+    "afterSwap": false,
+    "beforeInitialize": false,
+    "afterInitialize": false,
+    "beforeAddLiquidity": false,
+    "afterAddLiquidity": false,
+    "beforeRemoveLiquidity": false,
+    "afterRemoveLiquidity": false,
+    "beforeDonate": false,
+    "afterDonate": false
+  },
+  "steps": [
+    "Set the initial owner to 0x5469a029dbf2138723eD005634F4Baa951b2Bc8f",
+    "Set the initial maximum to 1000000000000000000000",
+    "Deploy CustomSwapHook with constructor argument poolManager = 0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+    "Verify getHookPermissions() returns beforeSwap = true and all other permissions false",
+    "Verify the hook's storage poolManager equals 0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+    "Confirm the deployed address matches the Uniswap v4 permission-derived hook address"
+  ]
+}
