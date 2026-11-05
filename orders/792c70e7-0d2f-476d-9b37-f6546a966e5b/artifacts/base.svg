@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="eyeHighlight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="white" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <!-- Head and face -->
+  <ellipse cx="512" cy="437.5" rx="175" ry="215" fill="#8FBC8F" stroke="#2F4F2F" stroke-width="8"/>
+  <!-- Eyes -->
+  <ellipse cx="400" cy="425" rx="40" ry="60" fill="#000000" stroke="#000000" stroke-width="4"/>
+  <ellipse cx="624" cy="425" rx="40" ry="60" fill="#000000" stroke="#000000" stroke-width="4"/>
+  <ellipse cx="390" cy="410" rx="15" ry="25" fill="url(#eyeHighlight)"/>
+  <ellipse cx="614" cy="410" rx="15" ry="25" fill="url(#eyeHighlight)"/>
+  <!-- Nose -->
+  <path d="M512,480 Q510,500 512,520" fill="none" stroke="#2F4F2F" stroke-width="6" stroke-linecap="round"/>
+  <!-- Mouth (neutral closed) -->
+  <path d="M462,580 Q512,620 562,580" fill="none" stroke="#2F4F2F" stroke-width="6" stroke-linecap="round"/>
+  <!-- Neck and shoulders -->
+  <path d="M460,665 Q512,700 564,665 L564,740 Q512,780 460,740 Z" fill="#8FBC8F" stroke="#2F4F2F" stroke-width="8"/>
+</svg>
