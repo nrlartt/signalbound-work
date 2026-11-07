@@ -1,0 +1,31 @@
+{
+  "contract": "TickMovementFeeHook",
+  "network": "ethereum-sepolia",
+  "chainId": 11155111,
+  "poolManager": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+  "constructorArguments": [
+    {"name": "manager", "type": "address", "value": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543"},
+    {"name": "initialOwner", "type": "address", "value": "0x5469a029dbf2138723eD005634F4Baa951b2Bc8f"},
+    {"name": "initialThreshold", "type": "uint24", "value": "100"},
+    {"name": "initialNormalFee", "type": "uint24", "value": "500"},
+    {"name": "initialElevatedFee", "type": "uint24", "value": "3000"}
+  ],
+  "requiredAccounts": [
+    {"role": "deployer", "description": "Wallet that signs and sends the deployment transaction; becomes the initial owner via the constructor argument"},
+    {"role": "initialOwner", "description": "0x5469a029dbf2138723eD005634F4Baa951b2Bc8f; must be able to call setFeePolicy after deployment"}
+  ],
+  "permissions": {
+    "beforeSwap": true,
+    "afterSwap": true
+  },
+  "steps": [
+    "Confirm deployer wallet and initial owner 0x5469a029dbf2138723eD005634F4Baa951b2Bc8f.",
+    "Confirm target network Ethereum Sepolia, chain id 11155111.",
+    "Confirm PoolManager 0xE03A1074c86CFeDd5C142C4F04F1a1536e203543.",
+    "Deploy TickMovementFeeHook with the constructor arguments above using your own wallet.",
+    "Mine or derive a CREATE2 address whose permission bits match beforeSwap=true and afterSwap=true.",
+    "Verify getHookPermissions() returns beforeSwap=true and afterSwap=true.",
+    "Verify movementThreshold=100, normalFee=500, elevatedFee=3000, owner=0x5469a029dbf2138723eD005634F4Baa951b2Bc8f.",
+    "Bind the hook to a dynamic-fee pool through the PoolManager."
+  ]
+}
