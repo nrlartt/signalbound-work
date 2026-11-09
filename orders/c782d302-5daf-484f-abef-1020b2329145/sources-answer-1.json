@@ -1,0 +1,56 @@
+{
+  "fetchedAt": "2026-11-09T10:08:24.620Z",
+  "requested": 4,
+  "ok": 4,
+  "relevance": null,
+  "sources": [
+    {
+      "url": "https://blockonomi.com/vitalik-buterin-moves-113k-eth-via-privacy-pools/",
+      "finalUrl": "https://blockonomi.com/vitalik-buterin-moves-113k-eth-via-privacy-pools/",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 225493,
+      "sha256": "e32d63aca5b57de123888d1b281673ddd1feba1143a5c1184eade18d3ec6d2c6",
+      "title": "Vitalik Buterin Moves $113K ETH via Privacy Pools - Blockonomi",
+      "excerptChars": 4500,
+      "error": null
+    },
+    {
+      "url": "https://ethdaily.io/vitalik-dives-50-eth-into-privacy-pools",
+      "finalUrl": "https://ethdaily.io/vitalik-dives-50-eth-into-privacy-pools",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 32331,
+      "sha256": "8c2e511174bce443e2a316e539165c7ccc5cc2943f56d428a814312d1fc573d9",
+      "title": "Vitalik Dives 50 ETH Into Privacy Pools - ETH Daily News",
+      "excerptChars": 2954,
+      "error": null
+    },
+    {
+      "url": "https://phemex.com/news/article/vitalik-buterin-transfers-1006-eth-via-privacy-protocol-39694",
+      "finalUrl": "https://phemex.com/news/article/vitalik-buterin-transfers-1006-eth-via-privacy-protocol-39694",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 127559,
+      "sha256": "e7355d554e46f2684ee8245a3c745b4a4e7b600e5f5dce6e1ad76fc8cc4082d8",
+      "title": "Vitalik Buterin Moves 1,006 ETH via Privacy Protocol | Phemex News",
+      "excerptChars": 4500,
+      "error": null
+    },
+    {
+      "url": "https://www.rootdata.com/news/440900",
+      "finalUrl": "https://www.rootdata.com/news/440900",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 1463,
+      "sha256": "f934d9a3a1cedbbe4da59bb1b083debfb4ef4879990b2019fbc4f994deeb1aba",
+      "title": null,
+      "excerptChars": 0,
+      "error": null
+    }
+  ]
+}
