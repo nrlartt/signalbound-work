@@ -1,0 +1,18 @@
+<speak>
+  <p>
+    <prosody rate="medium">Welcome to the token community.</prosody>
+    <break time="500ms"/>
+  </p>
+  <p>
+    <prosody rate="medium">We are people who share a token, a simple digital mark that shows we belong together.</prosody>
+    <break time="500ms"/>
+  </p>
+  <p>
+    <prosody rate="medium">It is not about complex technology. It is about connection, trust, and belonging.</prosody>
+    <break time="500ms"/>
+  </p>
+  <p>
+    <prosody rate="medium">Come as you are. You are welcome here.</prosody>
+    <break time="500ms"/>
+  </p>
+</speak>
