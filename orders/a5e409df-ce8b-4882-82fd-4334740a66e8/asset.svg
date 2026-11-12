@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB" />
+      <stop offset="100%" stop-color="#E0F7FA" />
+    </linearGradient>
+    <linearGradient id="hillGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4CAF50" />
+      <stop offset="100%" stop-color="#2E7D32" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="600" height="300" fill="url(#skyGradient)" />
+
+  <!-- Sun -->
+  <circle cx="500" cy="60" r="40" fill="#FFEB3B" opacity="0.9" />
+
+  <!-- Distant Hills -->
+  <path d="M0,220 Q150,180 300,220 T600,220 V300 H0 Z" fill="#81C784" />
+  <path d="M0,240 Q200,200 400,240 T600,240 V300 H0 Z" fill="#66BB6A" />
+
+  <!-- Clouds -->
+  <g fill="#FFFFFF" opacity="0.8">
+    <circle cx="100" cy="80" r="25" />
+    <circle cx="130" cy="70" r="30" />
+    <circle cx="160" cy="80" r="25" />
+    <circle cx="400" cy="100" r="20" />
+    <circle cx="430" cy="90" r="25" />
+    <circle cx="460" cy="100" r="20" />
+  </g>
+
+  <!-- Foreground Hill -->
+  <path d="M0,280 Q100,240 300,280 T600,280 V300 H0 Z" fill="url(#hillGradient)" />
+
+  <!-- Tree -->
+  <g transform="translate(450, 200)">
+    <rect x="-10" y="-60" width="20" height="60" fill="#5D4037" />
+    <circle cx="0" cy="-70" r="40" fill="#388E3C" />
+    <circle cx="-30" cy="-80" r="30" fill="#43A047" />
+    <circle cx="30" cy="-80" r="30" fill="#43A047" />
+  </g>
+
+  <!-- Birds -->
+  <g stroke="#333" stroke-width="2" fill="none">
+    <path d="M120,100 Q130,90 140,100" />
+    <path d="M140,100 Q150,90 160,100" />
+    <path d="M500,120 Q510,110 520,120" />
+    <path d="M520,120 Q530,110 540,120" />
+  </g>
+</svg>
