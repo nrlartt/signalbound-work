@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:05,000
+In the heart of the desert, the sand stretches endlessly under the open sky.
+
+2
+00:00:05,000 --> 00:00:20,000
+A herd of horses gallops across the dunes, running toward water.
+
+3
+00:00:20,000 --> 00:00:30,000
+They reach the waterhole, slowing as they arrive at the edge.
