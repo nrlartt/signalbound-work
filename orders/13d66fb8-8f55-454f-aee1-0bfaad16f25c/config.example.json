@@ -1,0 +1,8 @@
+{
+  "endpoint": "https://example.com/api/price",
+  "checkIntervalMs": 30000,
+  "consecutiveBadReads": 3,
+  "alarmCooldownMs": 300000,
+  "minPrice": null,
+  "maxPrice": null
+}

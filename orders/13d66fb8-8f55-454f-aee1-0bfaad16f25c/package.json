@@ -1,0 +1,12 @@
+{
+  "name": "signalbound-monitor",
+  "version": "1.0.0",
+  "description": "Read-only monitoring worker that checks an endpoint and raises alerts based on thresholds.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/monitor.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
