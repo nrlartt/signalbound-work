@@ -1,0 +1,8 @@
+{
+  "endpoint": "https://signalbound.fun/healthz",
+  "intervalMs": 60000,
+  "consecutiveFailures": 3,
+  "recoveryNotice": true,
+  "requestTimeoutMs": 10000,
+  "backoffMs": 5000
+}
