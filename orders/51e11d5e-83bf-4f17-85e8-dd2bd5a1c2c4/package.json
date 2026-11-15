@@ -1,0 +1,13 @@
+{
+  "name": "sepolia-jobescrow-indexer",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Read-only Sepolia JobEscrow Deposited event indexer",
+  "main": "src/indexer.mjs",
+  "scripts": {
+    "start": "node src/indexer.mjs"
+  },
+  "dependencies": {
+    "viem": "2.21.1"
+  }
+}
