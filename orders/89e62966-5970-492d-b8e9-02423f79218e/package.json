@@ -1,0 +1,13 @@
+{
+  "name": "bounded-integer-clamp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Bounded integer clamp built from the specification alone.",
+  "start": "node src/index.mjs",
+  "test": "node --experimental-vm-modules node_modules/.bin/jest test/clamp.test.mjs 2>/dev/null || node test/runner.mjs",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "test": "node test/runner.mjs"
+  },
+  "devDependencies": {}
+}
