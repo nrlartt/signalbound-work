@@ -1,0 +1,27 @@
+{
+  "contract": "TimeLockVault",
+  "network": "ethereum-sepolia",
+  "chainId": 11155111,
+  "constructorArguments": [],
+  "requiredAccounts": [
+    {
+      "role": "deployer / initial owner",
+      "description": "The wallet that signs and sends the deployment transaction; becomes the contract owner via Ownable(msg.sender)"
+    }
+  ],
+  "steps": [
+    {
+      "step": "deploy",
+      "action": "Deploy TimeLockVault to Ethereum Sepolia using forge create"
+    },
+    {
+      "step": "verify",
+      "action": "Confirm the deployment receipt, contract address, and owner() on Sepolia"
+    }
+  ],
+  "deployment": {
+    "address": null,
+    "transactionHash": null,
+    "status": "not deployed"
+  }
+}
