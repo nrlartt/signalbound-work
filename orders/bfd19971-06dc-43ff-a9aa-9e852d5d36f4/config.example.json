@@ -1,0 +1,11 @@
+{
+  "rpcUrl": "PLACEHOLDER_RPC_URL",
+  "intervalSeconds": 300,
+  "wallets": [
+    {
+      "address": "0x0000000000000000000000000000000000000000",
+      "thresholdEth": 0.0
+    }
+  ],
+  "blockStaleSeconds": 120
+}

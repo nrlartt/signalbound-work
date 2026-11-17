@@ -1,0 +1,9 @@
+{
+  "name": "eth-wallet-monitor",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/monitor.mjs",
+  "scripts": {
+    "start": "node src/monitor.mjs"
+  }
+}
