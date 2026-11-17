@@ -1,0 +1,12 @@
+{
+  "name": "signalbound-duration",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Parses duration strings into milliseconds and formats millisecond values into short or long duration strings.",
+  "start": "node src/index.mjs",
+  "test": "node --experimental-vm-modules node_modules/.bin/jest test/ --test-match '**/*.mjs' 2>/dev/null || node test/runner.mjs",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "test": "node test/runner.mjs"
+  }
+}
