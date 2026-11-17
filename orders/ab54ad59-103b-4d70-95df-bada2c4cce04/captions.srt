@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:05,000
+Stuck without test ETH for your Sepolia dApp?
+
+2
+00:00:05,000 --> 00:00:13,000
+Sepolia Faucet Finder helps you locate a working faucet fast.
+
+3
+00:00:13,000 --> 00:00:20,000
+Filter by your requirements, like no KYC or instant payout.
+
+4
+00:00:20,000 --> 00:00:30,000
+Claim test ETH straight to your wallet.
+
+5
+00:00:30,000 --> 00:00:38,000
+Watch your balance arrive and get back to building.
+
+6
+00:00:38,000 --> 00:00:45,000
+Sepolia Faucet Finder. Find test ETH fast.
