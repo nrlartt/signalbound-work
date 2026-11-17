@@ -1,0 +1,21 @@
+<speak>
+  <p>
+    <prosody rate="medium">Welcome to Signalbound Jobs.</prosody>
+    <break time="500ms"/>
+    <prosody rate="medium">A brief is a clear description of the work you need done.</prosody>
+    <break time="500ms"/>
+    <prosody rate="medium">You fund the job on <say-as interpret-as="characters">Sepolia</say-as> before work begins.</prosody>
+    <break time="300ms"/>
+    <prosody rate="medium">Your payment is held in escrow.</prosody>
+    <break time="300ms"/>
+    <prosody rate="medium"><emphasis level="strong">This protects you, the payer, until the delivery is complete.</emphasis></prosody>
+    <break time="500ms"/>
+    <prosody rate="medium">When the work arrives, you review it.</prosody>
+    <break time="300ms"/>
+    <prosody rate="medium">If it meets your brief, you accept the delivery.</prosody>
+    <break time="300ms"/>
+    <prosody rate="medium">The funds are then released.</prosody>
+    <break time="500ms"/>
+    <prosody rate="medium">Get started with Signalbound Jobs today.</prosody>
+  </p>
+</speak>
