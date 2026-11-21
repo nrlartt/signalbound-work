@@ -1,0 +1,13 @@
+{
+  "name": "signalbound-monitor",
+  "version": "1.0.0",
+  "description": "Read-only Ethereum Sepolia contract activity monitor",
+  "type": "module",
+  "scripts": {
+    "start": "node src/monitor.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
