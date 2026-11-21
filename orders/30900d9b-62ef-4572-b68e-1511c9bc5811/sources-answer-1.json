@@ -1,0 +1,20 @@
+{
+  "fetchedAt": "2026-11-21T20:18:17.716Z",
+  "requested": 1,
+  "ok": 1,
+  "relevance": null,
+  "sources": [
+    {
+      "url": "https://eips.ethereum.org/EIPS/eip-4361",
+      "finalUrl": "https://eips.ethereum.org/EIPS/eip-4361",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 53863,
+      "sha256": "0530d2eb496ab9f9061474a68a4b1e280692c46c533f1a5f1541a1a741aed663",
+      "title": "ERC-4361: Sign-In with Ethereum",
+      "excerptChars": 4500,
+      "error": null
+    }
+  ]
+}
