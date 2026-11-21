@@ -1,0 +1,30 @@
+{
+  "contract": "NumberRegistry",
+  "network": "ethereum-sepolia",
+  "chainId": 11155111,
+  "constructorArguments": [],
+  "requiredAccounts": [
+    {
+      "role": "deployer",
+      "description": "The wallet that signs and sends the deployment transaction. Must hold Sepolia ETH for gas."
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "action": "Deploy the compiled NumberRegistry artifact to Ethereum Sepolia with no constructor arguments."
+    },
+    {
+      "step": 2,
+      "action": "Record the verified deployment address and transaction hash."
+    },
+    {
+      "step": 3,
+      "action": "Verify the contract on Etherscan or a compatible block explorer."
+    },
+    {
+      "step": 4,
+      "action": "Run post-deployment checks: get for unknown address returns false and zero, set emits NumberSet, overwrite keeps count unchanged, clear emits NumberCleared, clear without entry reverts NoEntry, and count reflects active entries."
+    }
+  ]
+}
