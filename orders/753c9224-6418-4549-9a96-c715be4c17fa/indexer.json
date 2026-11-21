@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "chainId": 11155111,
+  "address": "0x1c7d4b196cb0c7b01d743fbc6116a902379c7238",
+  "startBlock": 12170000,
+  "events": [
+    "event Transfer(address indexed from, address indexed to, uint256 value)",
+    "event Approval(address indexed owner, address indexed spender, uint256 value)"
+  ]
+}
