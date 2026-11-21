@@ -1,0 +1,9 @@
+<speak>
+  <p><emphasis level="strong">Have you ever wondered why sending crypto costs a little extra money?</emphasis></p>
+  <break time="300ms"/>
+  <p>Think of <emphasis level="strong">gas</emphasis> as fuel for a car. Just as a car needs gasoline to move, the Ethereum network needs gas to process every transaction.</p>
+  <break time="300ms"/>
+  <p>The total fee equals gas used times the price per gas. That price is measured in gwei, a tiny unit of Ethereum.</p>
+  <break time="300ms"/>
+  <p>Visit <emphasis level="strong">Gas Diary</emphasis> to learn more.</p>
+</speak>
