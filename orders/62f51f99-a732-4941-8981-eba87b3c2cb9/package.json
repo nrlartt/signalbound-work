@@ -1,0 +1,12 @@
+{
+  "name": "gas-diary-calc",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Calculate gas diary fees in gwei and ETH",
+  "start": "node src/index.mjs",
+  "test": "node --test",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "test": "node --test"
+  }
+}
