@@ -1,0 +1,11 @@
+{
+  "name": "camelcase",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Convert a string or array of strings to camel case.",
+  "main": "src/index.mjs",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest test/ --config jest.config.mjs"
+  }
+}
