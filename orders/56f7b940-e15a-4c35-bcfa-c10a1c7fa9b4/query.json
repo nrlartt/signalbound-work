@@ -1,0 +1,3 @@
+{
+  "query": "{ deposits(limit: 15, orderBy: \"blockNumber\", orderDirection: \"desc\") { items { id blockNumber blockTimestamp transactionHash dst wad } pageInfo { hasNextPage endCursor } } }"
+}
