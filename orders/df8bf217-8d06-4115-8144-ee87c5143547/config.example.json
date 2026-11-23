@@ -1,0 +1,8 @@
+{
+  "rpcUrl": "https://sepolia.infura.io/v3/YOUR_INFURA_PROJECT_ID",
+  "intervalSeconds": 30,
+  "maxBlockAgeSeconds": 60,
+  "maxBaseFeeGwei": 50,
+  "alertAfterFailures": 3,
+  "requestTimeoutMs": 10000
+}

@@ -1,0 +1,14 @@
+{
+  "name": "sepolia-rpc-monitor",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Read-only Ethereum Sepolia RPC health monitor",
+  "main": "src/monitor.mjs",
+  "scripts": {
+    "start": "node src/monitor.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
