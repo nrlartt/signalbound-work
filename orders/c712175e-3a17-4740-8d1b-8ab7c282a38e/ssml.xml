@@ -1,0 +1,5 @@
+<speak>
+  <p>A nonce is the count of transactions your address has sent, starting at zero.</p>
+  <break time="500ms"/>
+  <p>Each new transaction must use the next number, so a stuck one blocks the ones after it, and you cannot skip ahead, and you must wait for the stuck one to clear before moving on.</p>
+</speak>
