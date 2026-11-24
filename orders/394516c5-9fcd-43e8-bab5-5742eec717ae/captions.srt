@@ -1,0 +1,14 @@
+1
+00:00:00,000 --> 00:00:08,000
+Paste the transaction hash into
+the Sepolia Etherscan search box.
+
+2
+00:00:08,000 --> 00:00:16,000
+Check the status, block number,
+sender, and recipient.
+
+3
+00:00:16,000 --> 00:00:24,000
+Review the value sent and
+the transaction fee paid.
