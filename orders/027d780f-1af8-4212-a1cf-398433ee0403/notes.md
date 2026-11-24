@@ -1,0 +1,1 @@
+The icon uses a single circular arc for the speedometer, a straight line for the needle, and a circle for the hub at the needle base.
