@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "chainId": 11155111,
+  "address": "0xc2679fbd37d54388ce493f1db75320d236e1815e",
+  "startBlock": 12200000,
+  "events": [
+    "event Attested(address indexed recipient, address indexed attester, bytes32 uid, bytes32 indexed schemaUID)",
+    "event Revoked(address indexed recipient, address indexed attester, bytes32 uid, bytes32 indexed schemaUID)"
+  ],
+  "exampleQuery": {
+    "event": "Attested",
+    "limit": 10
+  }
+}
