@@ -1,0 +1,14 @@
+{
+  "name": "circle-usdc-batch-indexer",
+  "version": "1.0.0",
+  "description": "Read-only indexer for Circle USDC batch payouts on Ethereum Sepolia",
+  "main": "src/indexer.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node src/indexer.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
