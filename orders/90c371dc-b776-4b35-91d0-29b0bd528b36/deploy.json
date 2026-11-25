@@ -1,0 +1,49 @@
+{
+  "contract": "SeasonPass",
+  "network": "ethereum-sepolia",
+  "chainId": 11155111,
+  "constructorArguments": [
+    {
+      "name": "price",
+      "type": "uint256",
+      "value": "100000000000000"
+    }
+  ],
+  "requiredAccounts": [
+    {
+      "role": "deployer / initial owner",
+      "address": "0x9628BF1D2995D2BEffC856412d671042Ea48704e",
+      "mustExistBeforeDeployment": true
+    }
+  ],
+  "postDeploymentSteps": [
+    {
+      "step": 1,
+      "action": "Confirm the deployment transaction on Ethereum Sepolia."
+    },
+    {
+      "step": 2,
+      "action": "Verify that price() returns 100000000000000."
+    },
+    {
+      "step": 3,
+      "action": "Verify that owner() returns 0x9628BF1D2995D2BEffC856412d671042Ea48704e."
+    },
+    {
+      "step": 4,
+      "action": "Verify that isActive(<buyer>) returns false before any purchase."
+    },
+    {
+      "step": 5,
+      "action": "Verify that buy() with exactly 0.0001 ether emits PassBought and sets expiresAt[buyer] to approximately block.timestamp + 7 days."
+    },
+    {
+      "step": 6,
+      "action": "Verify that buy() with any value other than 0.0001 ether reverts with WrongPrice."
+    },
+    {
+      "step": 7,
+      "action": "Verify that only the owner can call withdraw(); other callers revert with NotOwner."
+    }
+  ]
+}
