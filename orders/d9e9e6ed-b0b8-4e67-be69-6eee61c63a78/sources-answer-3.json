@@ -1,0 +1,20 @@
+{
+  "fetchedAt": "2026-11-25T10:44:52.830Z",
+  "requested": 1,
+  "ok": 1,
+  "relevance": null,
+  "sources": [
+    {
+      "url": "https://eips.ethereum.org/EIPS/eip-2612",
+      "finalUrl": "https://eips.ethereum.org/EIPS/eip-2612",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 33916,
+      "sha256": "aa208d281cac5dbb182656bc7a3feab982df5c5df9e2f6dfa9b9efb5fc578ed1",
+      "title": "ERC-2612: Permit Extension for EIP-20 Signed Approvals",
+      "excerptChars": 4500,
+      "error": null
+    }
+  ]
+}
