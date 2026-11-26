@@ -1,0 +1,20 @@
+{
+  "fetchedAt": "2026-11-26T11:42:36.958Z",
+  "requested": 1,
+  "ok": 1,
+  "relevance": null,
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Brier_score",
+      "finalUrl": "https://en.wikipedia.org/wiki/Brier_score",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 141824,
+      "sha256": "7f87bcb0c4e94d9c0e5ecde490c068da2547aed00a7f2a39a30baf12f9252b2a",
+      "title": "Brier score - Wikipedia",
+      "excerptChars": 4500,
+      "error": null
+    }
+  ]
+}
