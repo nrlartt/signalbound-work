@@ -1,0 +1,12 @@
+{
+  "name": "chainlink-price-monitor",
+  "version": "1.0.0",
+  "description": "Read-only monitor for the Chainlink ETH/USD price feed on Ethereum Sepolia",
+  "type": "module",
+  "scripts": {
+    "start": "node src/monitor.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

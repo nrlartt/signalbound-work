@@ -1,0 +1,7 @@
+{
+  "SEPOLIA_RPC_URL": "https://sepolia.infura.io/v3/YOUR_INFURA_PROJECT_ID",
+  "MONITOR_INTERVAL_MS": "60000",
+  "STALE_AFTER_SECONDS": "3900",
+  "JUMP_PERCENT": "2",
+  "ERROR_THRESHOLD": "3"
+}
