@@ -1,0 +1,11 @@
+<speak>
+  <prosody rate="medium">
+    Are you ready to trade without risking real money?
+    <break time="400ms"/>
+    Every trade on this desk uses <emphasis>paper</emphasis> money only.
+    <break time="400ms"/>
+    The desk shows the win rate and the largest drawdown for each strategy.
+    <break time="400ms"/>
+    Try one strategy this week.
+  </prosody>
+</speak>
