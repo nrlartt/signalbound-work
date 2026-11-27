@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "chainId": 11155111,
+  "address": "0x1238536071e1c677a632429e3655c799b22cda52",
+  "startBlock": 12200000,
+  "events": [
+    "event IncreaseLiquidity(uint256 indexed tokenId, uint128 liquidity, uint256 amount0, uint256 amount1)",
+    "event DecreaseLiquidity(uint256 indexed tokenId, uint128 liquidity, uint256 amount0, uint256 amount1)"
+  ],
+  "exampleQuery": {
+    "event": "IncreaseLiquidity",
+    "limit": 10
+  }
+}

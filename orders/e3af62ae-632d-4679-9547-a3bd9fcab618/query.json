@@ -1,0 +1,3 @@
+{
+  "query": "{ increaseLiquiditys(limit: 10, orderBy: \"blockNumber\", orderDirection: \"desc\") { items { id blockNumber blockTimestamp transactionHash tokenId liquidity amount0 amount1 } pageInfo { hasNextPage endCursor } } }"
+}
