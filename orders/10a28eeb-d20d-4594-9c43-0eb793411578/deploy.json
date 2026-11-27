@@ -1,0 +1,54 @@
+{
+  "contract": "MinRangeWidth",
+  "network": "ethereum-sepolia",
+  "chainId": 11155111,
+  "poolManager": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+  "constructorArguments": [
+    {
+      "name": "poolManager",
+      "type": "address",
+      "value": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543"
+    }
+  ],
+  "permissions": {
+    "beforeAddLiquidity": true,
+    "beforeSwap": false,
+    "afterSwap": false,
+    "beforeDonate": false,
+    "afterDonate": false,
+    "beforeInitialize": false,
+    "afterInitialize": false,
+    "afterAddLiquidity": false,
+    "beforeRemoveLiquidity": false,
+    "afterRemoveLiquidity": false
+  },
+  "preDeploymentAccounts": [
+    {
+      "role": "deployer",
+      "description": "Wallet that signs and sends the deployment transaction"
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "action": "Deploy MinRangeWidth to Ethereum Sepolia",
+      "command": "forge create src/MinRangeWidth.sol:MinRangeWidth --rpc-url <SEPOLIA_RPC_URL> --constructor-args 0xE03A1074c86CFeDd5C142C4F04F1a1536e203543 --account <YOUR_ACCOUNT>",
+      "note": "Sign with your own wallet. The hook address is determined by the permission bit and cannot be arbitrary."
+    },
+    {
+      "step": 2,
+      "action": "Verify permissions",
+      "check": "Read getHookPermissions(); only beforeAddLiquidity must be true"
+    },
+    {
+      "step": 3,
+      "action": "Verify narrow-range rejection",
+      "check": "Adding liquidity over [-240, 240] reverts with NarrowRange(480)"
+    },
+    {
+      "step": 4,
+      "action": "Verify allowed widths",
+      "check": "Adding liquidity over [-300, 300] and [-600, 600] succeeds"
+    }
+  ]
+}
