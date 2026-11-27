@@ -1,0 +1,32 @@
+{
+  "fetchedAt": "2026-11-27T12:58:05.306Z",
+  "requested": 2,
+  "ok": 2,
+  "relevance": null,
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Condorcet%27s_jury_theorem",
+      "finalUrl": "https://en.wikipedia.org/wiki/Condorcet%27s_jury_theorem",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 118436,
+      "sha256": "4956f0f3f65383d655b8689dcfab172251387b5590fe95c9cde6c244d5cc33cb",
+      "title": "Condorcet's jury theorem - Wikipedia",
+      "excerptChars": 4500,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wisdom_of_the_crowd",
+      "finalUrl": "https://en.wikipedia.org/wiki/Wisdom_of_the_crowd",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 278245,
+      "sha256": "0641884b120382c069e963e91f7ce1551d9645bbba8d93921d6d07b7af124edf",
+      "title": "Wisdom of the crowd - Wikipedia",
+      "excerptChars": 4500,
+      "error": null
+    }
+  ]
+}
