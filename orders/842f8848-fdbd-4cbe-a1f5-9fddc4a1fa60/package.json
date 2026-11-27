@@ -1,0 +1,14 @@
+{
+  "name": "to-bps",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Allocates basis points across weights using the largest remainder method.",
+  "main": "src/toBps.mjs",
+  "exports": {
+    ".": "./src/toBps.mjs"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/toBps.mjs"
+  }
+}
