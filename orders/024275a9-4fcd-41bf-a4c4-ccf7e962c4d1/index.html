@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Paper Desk - results of a paper-trading strategy test with 8 closed trades.">
+<title>Paper Desk</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+<h1>Paper Desk</h1>
+<p class="notice">Paper trading only - no real money</p>
+</header>
+<main>
+<section class="controls">
+<button type="button" id="filter-all" aria-pressed="true">All</button>
+<button type="button" id="filter-wins" aria-pressed="false">Wins</button>
+<button type="button" id="filter-losses" aria-pressed="false">Losses</button>
+<button type="button" id="copy-csv">Copy CSV</button>
+</section>
+<p id="summary" class="summary">8 trades, 5 wins, net P&L 480</p>
+<div class="table-wrap" role="region" aria-label="Trade results">
+<table>
+<thead>
+<tr>
+<th scope="col">Date</th>
+<th scope="col">Symbol</th>
+<th scope="col">Side</th>
+<th scope="col">Entry</th>
+<th scope="col">Exit</th>
+<th scope="col">Qty</th>
+<th scope="col">P&L</th>
+</tr>
+</thead>
+<tbody id="trade-body">
+</tbody>
+</table>
+</div>
+<p id="empty" class="empty" hidden>No trades match the current filter.</p>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
