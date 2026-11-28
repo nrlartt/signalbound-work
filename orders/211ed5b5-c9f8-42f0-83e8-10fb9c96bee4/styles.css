@@ -1,0 +1,21 @@
+body{margin:0;background:#E8F0F4;color:#12232B;font-family:"Trebuchet MS","Segoe UI",sans-serif}
+header{background:#1B3A4B;color:#E8F0F4;padding:28px 18px}
+h1{margin:0;font-weight:600;font-size:30px;text-transform:none}
+.tag{color:#38BDF8;margin:10px 0 0;font-size:15px}
+main{max-width:720px;margin:0 auto;padding:28px 18px}
+h2{color:#0E7490;margin-top:1.6em}
+.skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+.skip-link:focus{position:static;width:auto;height:auto;padding:8px 12px;background:#1B3A4B;color:#E8F0F4;text-decoration:none}
+#marks-list{margin:0 0 12px;padding-left:24px}
+#marks-list li{margin:4px 0}
+#marks-shown{margin:0 0 16px;font-size:14px;color:#12232B}
+.filter-group{display:flex;gap:8px;margin-bottom:16px}
+.filter-group button{background:#fff;border:1px solid #0E7490;color:#0E7490;padding:6px 12px;border-radius:4px;cursor:pointer;font-family:inherit;font-size:14px}
+.filter-group button:focus-visible{outline:3px solid #38BDF8;outline-offset:2px}
+.filter-group button[aria-pressed="true"]{background:#0E7490;color:#fff}
+.watch-strip{margin-top:16px;padding:10px 14px;background:#fff;border:1px solid #0E7490;border-radius:4px;font-size:14px;color:#12232B}
+@media (max-width:360px){
+  header{padding:20px 14px}
+  main{padding:20px 14px}
+  .filter-group{flex-direction:column}
+}

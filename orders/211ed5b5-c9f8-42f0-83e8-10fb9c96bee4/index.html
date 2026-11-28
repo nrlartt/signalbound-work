@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sounding Post: a hydrographic outpost with eight channel marks and a next-watch countdown.">
+  <title>Sounding Post</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a href="#main" class="skip-link">Skip to content</a>
+    <h1>Sounding Post</h1>
+    <p class="tag">A hydrographic outpost. Eight channel marks. One watch at a time.</p>
+  </header>
+  <main id="main">
+    <h2>The station</h2>
+    <p>Surveyors log depths on a shared board and book a place in the next watch. Visitors stay on the quay path.</p>
+    <ol id="marks-list"></ol>
+    <p id="marks-shown">Marks shown: 8</p>
+    <div class="filter-group" role="group" aria-label="Channel mark depth filter">
+      <button type="button" id="filter-all" aria-pressed="true">All</button>
+      <button type="button" id="filter-deep" aria-pressed="false">Deep</button>
+      <button type="button" id="filter-shallow" aria-pressed="false">Shallow</button>
+    </div>
+    <h2>The marks</h2>
+    <p>Each named mark has an in-house depth in fathoms. A mark on the board is not a berth reservation.</p>
+    <h2>How a watch works</h2>
+    <p>Each watch has a posted start. A surveyor is signed on only if they booked before that start.</p>
+    <div class="watch-strip" id="watch-strip" aria-live="polite"></div>
+    <h2>The post</h2>
+    <p>Sounding Post is a small test station for a shared depth diary. It is not a harbour office and it does not sell charts.</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
