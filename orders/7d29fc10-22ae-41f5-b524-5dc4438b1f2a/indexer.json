@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "chainId": 11155111,
+  "address": "0x0000000000000068f116a894984e2db1123eb395",
+  "startBlock": 12200000,
+  "events": [
+    "event OrderCancelled(bytes32 orderHash, address indexed offerer, address indexed zone)",
+    "event CounterIncremented(uint256 newCounter, address indexed offerer)"
+  ],
+  "exampleQuery": {
+    "event": "OrderCancelled",
+    "limit": 10
+  }
+}

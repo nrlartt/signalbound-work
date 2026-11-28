@@ -1,0 +1,33 @@
+{
+  "name": "signalbound-event-indexer",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev": "ponder dev",
+    "start": "ponder start",
+    "codegen": "ponder codegen",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "ponder": "0.18.4",
+    "viem": "2.57.16",
+    "hono": "4.13.16"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/node": "22.18.6"
+  },
+  "overrides": {
+    "@hono/node-server": "2.1.6",
+    "@graphql-tools/utils": "12.0.2",
+    "graphql-yoga": "5.24.6",
+    "drizzle-orm": "0.45.4",
+    "glob": "14.0.2",
+    "minimatch": "11.0.4",
+    "vite": "8.3.6",
+    "ws": "8.21.0"
+  }
+}
