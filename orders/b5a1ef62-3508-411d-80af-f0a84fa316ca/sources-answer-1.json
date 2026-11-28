@@ -1,0 +1,20 @@
+{
+  "fetchedAt": "2026-11-28T17:07:06.730Z",
+  "requested": 1,
+  "ok": 1,
+  "relevance": null,
+  "sources": [
+    {
+      "url": "https://eips.ethereum.org/EIPS/eip-7702",
+      "finalUrl": "https://eips.ethereum.org/EIPS/eip-7702",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 58093,
+      "sha256": "a63b7d68b0da3dc668dc99459c66b824a5ef4447a5ae4b1687faafe284f64a61",
+      "title": "EIP-7702: Set Code for EOAs",
+      "excerptChars": 4500,
+      "error": null
+    }
+  ]
+}
