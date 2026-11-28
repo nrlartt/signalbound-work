@@ -1,0 +1,22 @@
+body{margin:0;background:#EDE6DA;color:#2A1F1A;font-family:Georgia,"Iowan Old Style",serif}
+header{background:#3F2E27;color:#EDE6DA;padding:28px 18px}
+h1{margin:0;font-weight:600;font-size:30px}
+.tag{color:#FBBF24;margin:10px 0 0;font-size:15px}
+main{max-width:720px;margin:0 auto;padding:28px 18px}
+h2{color:#9A3412;margin-top:1.6em}
+.skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+.skip-link:focus{position:static;width:auto;height:auto;overflow:visible;background:#FBBF24;color:#2A1F1A;padding:8px 12px}
+:focus-visible{outline:3px solid #FBBF24;outline-offset:2px}
+.programs{margin-top:1em}
+.filter-strip{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.filter-btn{background:#EDE6DA;border:1px solid #2A1F1A;color:#2A1F1A;padding:6px 12px;font-family:inherit;font-size:15px;cursor:pointer;border-radius:4px}
+.filter-btn:focus-visible{outline:3px solid #FBBF24;outline-offset:2px}
+.filter-btn.active{background:#3F2E27;color:#EDE6DA;border-color:#3F2E27}
+#program-list{list-style:inside;padding-left:0;margin:0 0 8px}
+#program-list li{margin:4px 0;padding:6px 10px;background:#fff;border:1px solid #9A3412;border-radius:4px}
+.count-line{margin:0 0 1em;font-size:15px}
+.next-load{margin-top:1em;padding:8px 12px;background:#fff;border:1px solid #9A3412;border-radius:4px;font-size:15px}
+@media (max-width:360px){html,body{overflow-x:hidden}main{padding:18px 12px}
+.filter-strip{flex-direction:column}
+.filter-btn{width:100%}
+}

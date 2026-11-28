@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sagger Yard is a shared kiln loft with nine firing programs and one load at a time.">
+  <title>Sagger Yard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header>
+    <h1>Sagger Yard</h1>
+    <p class="tag">A shared kiln loft. Nine firing programs. One load at a time.</p>
+  </header>
+  <main id="main">
+    <h2>The workshop</h2>
+    <p>Potters dry work on communal shelves and book a place in the next shared firing. Visitors stay on the brick path.</p>
+    <div class="programs">
+      <div class="filter-strip" role="group" aria-label="Firing program filter">
+        <button type="button" class="filter-btn active" aria-pressed="true" data-filter="all">All</button>
+        <button type="button" class="filter-btn" aria-pressed="false" data-filter="high">High fire (cone 6 or 8)</button>
+        <button type="button" class="filter-btn" aria-pressed="false" data-filter="low">Low fire (cone 04, 06 or 018)</button>
+      </div>
+      <ol id="program-list"></ol>
+      <p id="program-count" class="count-line">Programs shown: <span id="count-value">9</span></p>
+    </div>
+    <h2>The shelves</h2>
+    <p>Wet pots sit on numbered boards until they are leather-hard. A board is not a kiln reservation.</p>
+    <h2>How a firing works</h2>
+    <p>Each program has a peak cone and a posted start. A pot is loaded only if it was booked before that start.</p>
+    <div class="next-load" aria-live="polite">
+      <span id="next-load-text">Next load in --:--:--</span>
+    </div>
+    <h2>The loft</h2>
+    <p>Sagger Yard is a small test workshop for a shared kiln diary. It is not a shop and it does not sell ware.</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
