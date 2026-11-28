@@ -1,0 +1,32 @@
+{
+  "fetchedAt": "2026-11-28T00:51:10.129Z",
+  "requested": 2,
+  "ok": 2,
+  "relevance": null,
+  "sources": [
+    {
+      "url": "https://eips.ethereum.org/EIPS/eip-1271",
+      "finalUrl": "https://eips.ethereum.org/EIPS/eip-1271",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 27917,
+      "sha256": "0bddb311d456082cd8fc58e713e2e4da756e51e2658aa06ad1780c9776232eac",
+      "title": "ERC-1271: Standard Signature Validation Method for Contracts",
+      "excerptChars": 4500,
+      "error": null
+    },
+    {
+      "url": "https://eips.ethereum.org/EIPS/eip-191",
+      "finalUrl": "https://eips.ethereum.org/EIPS/eip-191",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 23357,
+      "sha256": "749871b2367b8c77b9dae0a1f59bb9ce653feffc1de7a840c3767be5ed284c37",
+      "title": "ERC-191: Signed Data Standard",
+      "excerptChars": 4277,
+      "error": null
+    }
+  ]
+}
