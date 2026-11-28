@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cedar Conservatory public glasshouse visiting information, rooms, care notes and plant specimen catalogue.">
+  <title>Cedar Conservatory</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <header class="site-header">
+    <div id="open-status" role="status" aria-live="polite"></div>
+    <h1>Cedar Conservatory</h1>
+    <p class="lede">A small public glasshouse for hardy and tender plants, open to visitors on weekdays.</p>
+  </header>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="#visiting">Visiting</a>
+    <a href="#rooms">The rooms</a>
+    <a href="#catalogue">Specimen catalogue</a>
+    <a href="#care-notes">Care notes</a>
+    <a href="#find-us">How to find us</a>
+  </nav>
+
+  <main id="main">
+    <section id="visiting">
+      <h2>Visiting</h2>
+      <p>Walk-ins are welcome. Bags stay in the rack by the door. Please do not touch labels or move pots.</p>
+    </section>
+
+    <section id="rooms">
+      <h2>The rooms</h2>
+      <p>The cool room holds ferns and mosses. The warm room holds citrus and succulents. A narrow corridor links the two.</p>
+    </section>
+
+    <section id="catalogue" aria-label="Specimen catalogue">
+      <h2>Specimen catalogue</h2>
+      <div class="controls">
+        <div class="filter-group" role="group" aria-label="Filter by room">
+          <button type="button" class="filter-btn active" data-room="all" aria-pressed="true">All</button>
+          <button type="button" class="filter-btn" data-room="cool" aria-pressed="false">Cool room</button>
+          <button type="button" class="filter-btn" data-room="warm" aria-pressed="false">Warm room</button>
+        </div>
+        <div class="sort-group" role="group" aria-label="Sort specimens">
+          <button type="button" class="sort-btn active" data-sort="name" aria-pressed="true">Name</button>
+          <button type="button" class="sort-btn" data-sort="water" aria-pressed="false">Watering interval</button>
+        </div>
+      </div>
+      <ul id="specimen-list" class="specimen-list"></ul>
+    </section>
+
+    <section id="care-notes">
+      <h2>Care notes</h2>
+      <p>Staff water in the morning. Group visits of more than eight people should write to the office first.</p>
+    </section>
+
+    <section id="find-us">
+      <h2>How to find us</h2>
+      <p>The conservatory sits at the north end of Cedar Yard. The nearest step-free entrance is on Lime Walk.</p>
+    </section>
+
+    <section id="hours-section" aria-labelledby="hours-heading">
+      <h2 id="hours-heading">Opening hours</h2>
+      <table id="hours" class="visually-hidden">
+        <caption>Weekly opening hours</caption>
+        <thead>
+          <tr><th>Day</th><th>Hours</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Monday</td><td>10:00–16:00</td></tr>
+          <tr><td>Tuesday</td><td>10:00–16:00</td></tr>
+          <tr><td>Wednesday</td><td>10:00–16:00</td></tr>
+          <tr><td>Thursday</td><td>10:00–16:00</td></tr>
+          <tr><td>Friday</td><td>10:00–16:00</td></tr>
+          <tr><td>Saturday</td><td>11:00–15:00</td></tr>
+          <tr><td>Sunday</td><td>Closed</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; Cedar Conservatory. Public glasshouse information.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
