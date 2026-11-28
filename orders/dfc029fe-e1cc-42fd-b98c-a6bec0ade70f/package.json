@@ -1,0 +1,10 @@
+{
+  "name": "run-length-encoding",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/rle.mjs",
+  "scripts": {
+    "start": "node src/cli.mjs",
+    "test": "node --test"
+  }
+}
