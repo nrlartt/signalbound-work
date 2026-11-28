@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "chainId": 11155111,
+  "address": "0xfff9976782d46cc05630d1f6ebab18b2324d6b14",
+  "startBlock": 12215000,
+  "events": [
+    "event Deposit(address indexed dst, uint256 wad)",
+    "event Withdrawal(address indexed src, uint256 wad)"
+  ],
+  "exampleQuery": {
+    "event": "Deposit",
+    "limit": 10
+  }
+}

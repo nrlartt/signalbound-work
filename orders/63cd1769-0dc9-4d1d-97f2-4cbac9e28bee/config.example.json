@@ -1,0 +1,9 @@
+{
+  "environmentVariables": {
+    "PONDER_RPC_URL": "Set privately in your deployment environment",
+    "DATABASE_URL": "Production Postgres connection string; never commit it",
+    "DATABASE_SCHEMA": "unique_indexer_schema"
+  },
+  "chainId": 11155111,
+  "startBlock": 12215000
+}
