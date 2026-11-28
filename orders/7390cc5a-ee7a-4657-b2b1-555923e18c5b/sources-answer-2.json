@@ -1,0 +1,11 @@
+{
+  "fetchedAt": "2026-11-28T15:38:05.992Z",
+  "requested": 2,
+  "ok": 0,
+  "relevance": null,
+  "unavailable": true,
+  "failures": [
+    "search-provider-challenge"
+  ],
+  "sources": []
+}
