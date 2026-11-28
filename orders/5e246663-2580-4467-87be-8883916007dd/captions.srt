@@ -1,0 +1,15 @@
+1
+00:00:00,000 --> 00:00:02,000
+A lead-weight rests on the quay plank.
+
+2
+00:00:02,000 --> 00:00:04,000
+It is lifted into the air.
+
+3
+00:00:04,000 --> 00:00:07,000
+Dropped over the side into the water.
+
+4
+00:00:07,000 --> 00:00:10,000
+And the line pays out.
