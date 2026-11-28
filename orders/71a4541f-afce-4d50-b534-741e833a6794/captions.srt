@@ -1,0 +1,15 @@
+1
+00:00:00,000 --> 00:00:02,000
+A leather-hard pot is lifted from the drying shelf.
+
+2
+00:00:02,000 --> 00:00:04,000
+It is set gently into the sagger.
+
+3
+00:00:04,000 --> 00:00:06,000
+The kiln door closes.
+
+4
+00:00:06,000 --> 00:00:08,000
+The chamber is sealed.
