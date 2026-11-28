@@ -1,0 +1,1 @@
+ExactOutputOnly is a Uniswap v4 hook that permits only exact-output swaps and rejects exact-input swaps with ExactInputForbidden. Liquidity is not limited by this hook.
