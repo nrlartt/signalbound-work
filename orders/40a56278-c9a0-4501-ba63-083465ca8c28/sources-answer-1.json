@@ -1,0 +1,20 @@
+{
+  "fetchedAt": "2026-11-28T18:06:46.283Z",
+  "requested": 1,
+  "ok": 1,
+  "relevance": null,
+  "sources": [
+    {
+      "url": "https://eips.ethereum.org/EIPS/eip-1559",
+      "finalUrl": "https://eips.ethereum.org/EIPS/eip-1559",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 65732,
+      "sha256": "453b293845f8faac282a468be0c01594f0a785dde3af34947ee676c085e011b7",
+      "title": "EIP-1559: Fee market change for ETH 1.0 chain",
+      "excerptChars": 4500,
+      "error": null
+    }
+  ]
+}
