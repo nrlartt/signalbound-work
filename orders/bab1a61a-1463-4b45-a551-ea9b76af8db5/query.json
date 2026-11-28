@@ -1,0 +1,3 @@
+{
+  "query": "{ pairCreateds(limit: 10, orderBy: \"blockNumber\", orderDirection: \"desc\") { items { id blockNumber blockTimestamp transactionHash token0 token1 pair allPairsLength } pageInfo { hasNextPage endCursor } } }"
+}

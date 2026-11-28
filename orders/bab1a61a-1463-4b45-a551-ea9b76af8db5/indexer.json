@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "chainId": 11155111,
+  "address": "0xf62c03e08ada871a0beb309762e260a7a6a880e6",
+  "startBlock": 12200000,
+  "events": [
+    "event PairCreated(address indexed token0, address indexed token1, address pair, uint256 allPairsLength)"
+  ],
+  "exampleQuery": {
+    "event": "PairCreated",
+    "limit": 10
+  }
+}
