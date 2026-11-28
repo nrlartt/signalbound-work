@@ -1,0 +1,32 @@
+{
+  "fetchedAt": "2026-11-28T15:33:00.503Z",
+  "requested": 2,
+  "ok": 2,
+  "relevance": null,
+  "sources": [
+    {
+      "url": "https://eips.ethereum.org/EIPS/eip-1167",
+      "finalUrl": "https://eips.ethereum.org/EIPS/eip-1167",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 21844,
+      "sha256": "9b1078c616bd52a7c25a0cbc5ef2703efdc9b7e80d2a375f7b3e00f9968ba2e7",
+      "title": "ERC-1167: Minimal Proxy Contract",
+      "excerptChars": 4500,
+      "error": null
+    },
+    {
+      "url": "https://eips.ethereum.org/EIPS/eip-2470",
+      "finalUrl": "https://eips.ethereum.org/EIPS/eip-2470",
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 31442,
+      "sha256": "afce04cb7581ebc0757c277ec12860cbeda842aa5b503b498a3a2bc526619c75",
+      "title": "ERC-2470: Singleton Factory",
+      "excerptChars": 4500,
+      "error": null
+    }
+  ]
+}
