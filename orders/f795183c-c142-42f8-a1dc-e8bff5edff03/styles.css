@@ -1,0 +1,17 @@
+body{margin:0;background:#FAF7F2;color:#1E293B;font-family:"Palatino Linotype",Palatino,serif}
+header{background:#1E293B;color:#FAF7F2;padding:24px 16px}
+h1{margin:0;letter-spacing:0.12em;text-transform:uppercase;font-size:28px}
+.tag{color:#C2410C;margin:8px 0 0;font-size:14px}
+main{max-width:760px;margin:0 auto;padding:24px 16px}
+h2{border-bottom:2px solid #C2410C;padding-bottom:4px}
+.skip-link{position:absolute;left:-9999px;top:12px;background:#C2410C;color:#FAF7F2;padding:8px 12px;z-index:100;text-decoration:none;border-radius:4px;font-weight:bold}
+.skip-link:focus{left:12px}
+:focus-visible{outline:3px solid #C2410C;outline-offset:2px}
+#stages-list{list-style:none;padding:0;margin:16px 0}
+#stages-list li{margin:6px 0;padding:6px 10px;background:#fff;border:1px solid #d9d3c8;border-radius:4px}
+#stages-total{margin-top:8px;font-weight:bold}
+#stage-filter{margin:16px 0;display:flex;gap:8px;flex-wrap:wrap}
+#stage-filter button{background:#fff;border:1px solid #C2410C;color:#C2410C;padding:6px 12px;border-radius:4px;cursor:pointer;font-family:inherit;font-size:14px}
+#stage-filter button[aria-pressed="true"]{background:#C2410C;color:#FAF7F2}
+#next-heat{margin-top:16px;padding:10px 14px;background:#fff;border:1px solid #C2410C;border-radius:4px;font-weight:bold}
+@media (max-width:360px){html{overflow-x:hidden}body{overflow-x:hidden}main{padding:16px 10px}h1{font-size:22px}}

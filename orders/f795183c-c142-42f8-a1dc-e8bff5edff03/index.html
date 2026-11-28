@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Copper Cart time-trial studio: fourteen mine-cart stages, one heat at a time.">
+  <title>Copper Cart</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header>
+    <h1>Copper Cart</h1>
+    <p class="tag">A short mine-cart time trial. Fourteen stages. One heat at a time.</p>
+  </header>
+  <main id="main">
+    <h2>The trial</h2>
+    <p>Riders clear fourteen stages in a single heat. A ghost tape of the last accepted run is kept so a rider can race their earlier self.</p>
+    <ol id="stages-list"></ol>
+    <p id="stages-total">Total: <span id="stages-total-value">0</span> seconds</p>
+    <div id="stage-filter" role="group" aria-label="Filter stages by duration">
+      <button type="button" id="filter-all" aria-pressed="true">All</button>
+      <button type="button" id="filter-short" aria-pressed="false">Short (under 16 s)</button>
+      <button type="button" id="filter-long" aria-pressed="false">Long (16 s and over)</button>
+    </div>
+    <h2>The yard</h2>
+    <p>The practice yard is open whenever a heat is not running. Carts stay on the rails. Visitors stand behind the painted line.</p>
+    <h2>How a heat works</h2>
+    <p>A heat has a posted start and a cutoff time. Officials record a finish only for riders who entered before the start.</p>
+    <div id="next-heat" role="status" aria-live="polite"></div>
+    <h2>The studio</h2>
+    <p>Copper Cart is a small test project for a pixel-art time trial. It is not a shop and it does not sell tickets.</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
